@@ -1,0 +1,2644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Audio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+</head>
+<body>
+
+
+
+
+
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <title>Template</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+  <style>
+  body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+  .w3-bar-block .w3-bar-item {padding:20px}
+  </style>
+  </head>
+  <body>
+  
+  <!-- Sidebar (hidden by default) -->
+  <!-- Text DISABLE start HERE-->
+  
+  <!DOCTYPE html>
+  <html>
+  
+  
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disable cut copy paste</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  
+  </head>
+  <body>
+    
+    
+  <p class="code"><br>
+  
+    <script type="text/javascript">
+    
+      $(document).ready(function() {
+        $('body').bind('cut copy paste', function (e) {
+          e.preventDefault();
+        })
+        $(".code").on("contextmenu", function(e) {
+          return false;
+        })
+      })
+      
+      </script>
+  
+  
+  </body>
+  </html>
+  
+  
+  <!-- Text DISABLE end HERE-->
+
+
+
+<!-- Sidebar/menu -->
+
+
+<!-- <nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64 w3-center"><b>Bitew Studio Lab <br> - B S L -  </b> </h3>
+  </div>
+
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+
+    <a href="#audio" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Audio</a> 
+
+    <a href="#sound" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">sound</a> 
+
+    <a href="#mixer" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Mixer</a> 
+
+
+    <a href="#microphones" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Microphones</a> 
+
+
+    <a href="#careers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Careers</a> 
+    <a href="#loudness" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Loudness</a> 
+    
+
+
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+
+
+    
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<!-- <header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span>B S L </span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+
+
+
+
+
+
+<!-- ሃ -->
+
+
+<div class="w3-top w3-row w3-padding-16">
+  <div class=" w3-center">
+    <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    
+      <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+
+      <a href="#audio" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Audio</a> 
+
+      <a href="#sound" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">sound</a> 
+  
+      <a href="#mixer" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Mixer</a> 
+  
+  
+      <a href="#microphones" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Microphones</a> 
+  
+  
+      <a href="#careers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Careers</a> 
+      <a href="#loudness" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Loudness</a> 
+      
+  
+  
+      <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+  
+
+
+
+       <!--  <a href="#about" class="w3-bar-item w3-button">About</a>
+        <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+        <a href="#contact" class="w3-bar-item w3-button">Contact</a> -->
+  
+  
+  
+        
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- ሃ -->
+
+
+
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:40px;margin-right:40px">
+
+  <!-- Header -->
+
+<!-- Header -->
+
+<!-- id HOME -->
+
+<header class=" w3-display-container w3-content " style="max-width:1600px;min-width:500px" id="home">
+  
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+   
+
+    
+  </div>
+</header>
+
+<img src=" https://images.pexels.com/photos/2531709/pexels-photo-2531709.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+alt="boat" style="width:100%;min-height: 175px;max-height:300px;">
+
+
+
+  
+  
+
+      <!-- id SEQUENCE -->
+      <div class="w3-container" style="margin-top:80px" id="audio">
+
+          <h1 class="w3-jumbo w3-center"><b>Audio</b></h1>
+          <!-- <h1 class="w3-xxxlarge w3-text-red"><b>Audio : Mic Demo</b></h1>
+          <hr style="width:50px;border:5px solid red" class="w3-round"> -->
+        <!-- <h1 class="w3-jumbo w3-center"  class="code"> <b> Audio <br> </b> </h1> -->
+        
+
+
+
+     
+    <div class="w3-padding-32 w3-center">
+        <button class="w3-btn w3-xlarge w3-blue w3-hover-light-grey"
+         onclick="document.getElementById('id01').style.display='block'" style="font-weight:900;">About Bitew Studio Lab</button>
+      </div>
+   
+  </header>
+  
+  <!-- Modal ይህ ክፍል About Bitew Studio Lab ክሊክ ሲደረግ ሌላ የሚከፈት ዊንዶ መጠቀሚያ ኮድ እዚህ ይጀምራል-->
+  
+  <div id="id01" class="w3-modal ">
+      <div class="w3-modal-content w3-card-4 w3-animate-top">
+        <header class="w3-container w3-teal"> 
+          <span onclick="document.getElementById('id01').style.display='none'"
+          class="w3-button w3-display-topright">×</span>
+          <h4 class="code" style="text-align:center;" >What We Do/service... <br> </h4>
+          <h5 class="code" style="text-align:center;" >Here’s what we can do for you. <i class="fa fa-smile-o"></i>  <br> </h5>
+        </header>
+        <div class="w3-padding w3-black">
+          <p class="code" > We like to think of ourselves as your creative partner. You bring your passion and intent; we provide our expertise and love of design. <br> </p>
+  
+  
+          <p>Go to our <a class="w3-btn w3-red " href="https://www.bitews.com/home">BSL WEBSITE</a> to learn more!</p>
+  
+        </div>
+        <footer class="w3-container w3-teal">
+          <p style="text-align:center;">BITEW STUDIO LAB</p>
+        </footer>
+      </div>
+  </div>
+  
+  <!-- Modal ይህ ከዚህ በላይ ያለው ክፍል About Bitew Studio Lab ክሊክ ሲደረግ ሌላ የሚከፈት ዊንዶ መጠቀሚያ ኮድ  ሲሆን ከዚህ በላይ ያልቃል -->
+  
+  
+
+
+
+
+
+    
+ 
+ <!-- Services -->
+ <!-- <div class="w3-container" id="services" style="margin-top:75px">
+
+  <h1 class="w3-xxxlarge w3-text-red"><b>Services.</b></h1>
+  <hr style="width:50px;border:5px solid red" class="w3-round">
+  <p>We are a interior design service that  and what's best for you!</p>
+  <p>Some text about our services </p>
+</div> -->
+
+ 
+
+
+
+
+ <!-- ID FOOD -->
+ 
+ <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+  <div class="w3-quarter">
+    
+    <img src=" https://cdn4.iconfinder.com/data/icons/web-ui-color/128/Audio-64.png" alt="Sandwich" style="width:20%">
+
+    <h3 class="code"> Audio </h3>
+    <p class="w3-opacity" class="code">Clean audio during an interview </b> </p>
+   
+    <img class="w3-image w3-round-large" src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhq-meh_bawcAbRSPMvIfMg5RrdJ8OpnukMVuX2xugQa1emHSP6Tp_hysJqu6OY9KhZdX6ZjJHc_g90jASGkyXXAKlAZjX6IE5GquoSdoMtlW-kY7OdpeXd7hAXhlUjz9TOEwFvTSPgD-rivLPqQyO1aB8aIKeQH-6lNFCqD68utGNNUrd1VD1V68JXIE0/s1200/1.PNG " 
+      alt="Buildings" width="700" height="394"> 
+
+    <p class="code" style= "text-align:left;" > When it comes to getting good, clean audio during an interview, you can't go wrong with the Lav.
+      A Lav, or Lavaliere microphone is a small capsule mike worn on the subject just below their face. <br> </p>
+
+    <p class="code" style= "text-align:left;" > Try to keep the placement centered, as opposed to placing it on the lapel of a jacket.  <br> </p>
+
+
+
+
+
+       <img class="w3-image w3-round-large" src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjENJXHjPyrhbCGj1phyphenhyphen8q9aNmjJgjpAPq2xrxoVIPhHL9FYQGrYLhJo9AMP3OesW6OvGYNpsm1dZ_RRDeB3z9mKwEXHOh21p6EhwEFFJnYJ620gwjiIoljQyicbV_pYClrb07sXuoWqo_v2y9XWZKlWHFOuaXWn-I4yNnEqSbVAlcuOhC-t-e7fvYMHtY/s1200/5.PNG " 
+      alt="Buildings" width="700" height="394"> 
+
+
+
+      <p class="code" style= "text-align:left;"  > The other way to get good interview voice recording is a shotgun or boom mic. 
+        These often require an additional crew member to hold and adjust the position of the mic, 
+        usually at the end of a boom extension pole. <br> </p>
+
+
+
+  <!--  <p><a href=" https://www.bitews.com/shop" class="w3-button w3-pink"><i class="fa fa-th"> </i> View Our Works</a></p> -->
+
+
+  </div>
+
+
+<!--2 -->
+  <div class="w3-quarter">
+    <img src=" https://cdn3.iconfinder.com/data/icons/smoothfill-device/30/device_036-microphone-radio-podcast-audio-recorder-64.png" alt="Steak" style="width:20%">
+   
+    <p style= "text-align:left;" class="code" >  
+
+      <h3 class="code"> Mike Check </b> </h3>
+      <p class="w3-opacity" class="code"> Sounds Coming From the Mic </b> </p>
+     
+      <img class="w3-image w3-round-large" src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhM7x2YDbqYZGYR-zxQIvBBmyhZleMvMBGMj1uOFBHGLJionIyP-uLUlW6dso9HrVuS_azeyhrEo3u2g8vukqnsuFcyp27S3-aCr504qsFsyrOGHfWEAzocCcDwrr6KMd1bHVFGJatSQR9N6_rcEdHzVJJmKb4qRZCnMNfSx18svw__3SfVsnqqjX_7s24/s1200/2.PNG" 
+      alt="Buildings" width="700" height="394">
+
+    
+
+    <p class="code" style= "text-align:left;" > The use of a shotgun mic requires you to be aware of any sounds coming from the direction the mic is pointed. <br> </p>
+
+   
+    
+
+
+      <img class="w3-image w3-round-large" src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFmTmpsVSWsoKf8I0DzgBPgZWeHiteO8H2UgMkoPlMOhgri7aSeoR6SqEESwVsWnTHJUdHQ3b6Dn4B0jAX633FCsD9LNp5EuhyphenhyphenDUIyWAJC1TVo7wKacKY22tK-XdB2vJGcJGfPTeuQmRx09Z9b0xBWuL4pOr8A8wqT0fGXsgKoTe9kHb89Gp_p14Ls2x8/s1200/6.PNG  " 
+      alt="Buildings" width="700" height="394">
+
+
+
+
+      <p style= "text-align:left;" class="code"> Placing a Lavaliere Microphone:  <a href=" https://www.youtube.com/watch?v=YI_3MwwQUDw" target="_blank"> Watch this video </a> </p>
+
+
+      <p style= "text-align:left;" class="code"> Watch  <a href=" https://www.youtube.com/watch?v=VQV3lkiNaD" target="_blank"> This video </a> </p>
+      
+
+
+
+
+
+     <!--  <p><a href=" https://www.bitews.com/shop" class="w3-button w3-teal"><i class="fa fa-th"> </i> View Our Works</a></p> -->
+
+     
+
+  </div>
+
+
+  <!-- 3 -->
+  <div class="w3-quarter">
+    <img src=" https://cdn3.iconfinder.com/data/icons/pretty-office-part-3/256/Process_accept-64.png" alt="Cherries" style="width:20%">
+
+    <h3 class="code"> Setting Audio </b> </h3>
+    <p class="w3-opacity" class="code"> Canon SL3 DSLR </b> </p>
+    
+   
+    <img class="w3-image w3-round-large" src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCNn-zZ2ahb6PoCrwoJsyzN7gqf1mlxsC8kq9B4B0ZdlqvwnRwDWQnRJVGXZnoC8HQsCDi0NUT-ArTcduz4faB1p1gk6P4-_AGaecYUV1VtzP4lY0MpE-O9vDFuCNbe4zY6uVsy7F-mzy3Ei-A1TqVVp9DRaiopWOZBWZH_2x5qmm8pmlXE7KfisF2MT8/s1200/3.PNG " 
+      alt="Buildings" width="700" height="394">
+
+      <li   li class="code" style= "text-align:left;" ul class="a" li>    [Sound rec./Rec. level] options [Auto]<br> </li>
+
+      <li   li class="code" style= "text-align:left;" ul class="a" li>   The sound-recording level is adjusted automatically. <br> </li>
+      <li   li class="code" style= "text-align:left;" ul class="a" li>   Auto level control will operate automatically in response to the sound level. [Manual] <br> </li>
+
+      <li   li class="code" style= "text-align:left;" ul class="a" li>   For advanced users. You can adjust the sound-
+      recording level to one of 64 levels. <br> </li>
+
+      <li   li class="code" style= "text-align:left;" ul class="a" li>  Select [Rec. level] and press the < ^> <» > 
+        keys while looking at the level meter to adjust the sound-recording level. Look at the peak hold indicator 
+      (approx. 3 sec.), and adjust so that the level meter sometimes lights up on the right of the "12"
+       (-12 dB) mark for the loudest sounds. If it exceeds "O", the sound will be distorted. <br> </li>
+
+       <li   li class="code" style= "text-align:left;" ul class="a" li>   Sound will not be recorded. [Disable] <br> </li>
+
+       <li   li class="code" style= "text-align:left;" ul class="a" li>  [Wind filter] When set to [Auto], it reduces wind noise when there is wind outdoors. <br> </li>
+
+       <li   li class="code" style= "text-align:left;" ul class="a" li>   This feature works only when you use the built-in microphones for movie shooting. When the wind filter 
+      function takes effect, part of the low bass sounds will also be reduced. <br> </li>
+      <li   li class="code" style= "text-align:left;" ul class="a" li>   [Attenuator] Automatically suppresses sound distortion caused by loud noises. <br> </li>
+
+      <li   li class="code" style= "text-align:left;" ul class="a" li>   Even if [Sound rec.] is set to [Auto] or [Manual] for shooting, sound distortion may
+       still result if there is a very loud sound. In such a case, setting it to [Enable] is recommended. <br> </li>
+
+       <li   li class="code" style= "text-align:left;" ul class="a" li>   If you use the Wi-Fi (wireless communication) function with an external microphone, the sound noise 
+      may be recorded. During sound recording. using the wireless communication function is not recommended.   <br> </li>
+
+
+
+
+    <p class="code" style= "text-align:left;"  >     <br> </p>
+
+   
+   <!--  <p><a href=" https://www.bitews.com/shop" class="w3-button w3-brown"><i class="fa fa-th"> </i> View Our Works</a></p> -->
+
+
+  </div>
+
+
+  <!-- 4 -->
+  <div class="w3-quarter">
+    <img src=" https://cdn4.iconfinder.com/data/icons/retro-technology-13/504/camera-record-video-movie-production-64.png" alt="Pasta and Wine" style="width:20%">
+    
+    <h3 class="code"> The Camera's Handle </b> </h3>
+    <p class="w3-opacity" class="code"> You will Adjust </b> </p>
+   
+
+    <img class="w3-image w3-round-large" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguPn0zYDkuOvmkk462C2H6LXOlJOILjYTzwo0nVmsSF_lQDO9zVT0CsIT2zvs2ERe0CZ8yFxiSNu2Z671AeiLqzOKSKXaVDCllYuG4fI6l2xNVXVDeIsxSc5gJU-jlEjtEhIKNAzFDKMcb_vaXtxo2nKddPw5hAiXt8KrKPkqj-Xzw7TuubgJ9rMQ5irA/s1200/4.PNG " 
+    alt="Buildings" width="700" height="394">
+  
+  <p class="code" style= "text-align:left;"  > The camera's handle. ﻿﻿Set Ch1 Switch from AUTO to MAN (Manual)
+    ﻿﻿Set Gain to 5 or 6 (Dial). You will adjust this again once you put the Mic on the Talent and do a mic check.
+    Now we go to the Input Switch panel located next to the XLR connectors:  <br> </p>
+
+  <img class="w3-image w3-round-large" src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgp1t_FLeXb0MzBWd9xYzIDCqbl6vropReui9mTUQPs_vCim7SYxz0gEpjzc16sYQJkcBjkW1lLVc1HSHZTm6TjFgJNMXM69BfACS2fO12GOboj3XWQ5JU2XvjQBjALJceZNVxjTJ2RoBdj7GlkML8msamAn-NHEbmglA-cFiIsxSYGdLZnGcLTn_fDSWc/s1200/7.PNG " 
+    alt="Buildings" width="700" height="394">
+  <p class="code" style= "text-align:left;"  > For using our wired lavaliere microphones, we will plug it into INPUT, 
+    via an XLR cable, and set INPUT1 to MIC level. We will discuss the other inputs next week.
+     Since we are only using one external mic, we will not worry about the INPUT2 settings. <br> </p>
+
+
+
+    <!--  <p><a href=" https://www.bitews.com/shop" class="w3-button w3-orange"><i class="fa fa-th"> </i> View Our Works </a> </p> -->
+
+
+</div>
+
+
+  </div>
+</div>
+
+<!-- test -->
+
+
+<p class=" w3-container ">
+
+  <img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrT46hF1X1VV5V4hFErxDD5AIrK8D4Tw7Mx3b4ayrENRqxwp-TesojiQX-GYqlgbmkAKPqYiaRX_rJCtAXmi482HjmyoDl0SeNjf1yjfYnWINNPHv91bG-TNvG_YVDY0zX17SQwc22_4k4Uad_240PfcF1mpyJNTuXfc3_Zpw1WE84aqTqTB3ZhMQuAvo/s1711/10.png"
+   style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+ 
+ 
+ 
+   <p class="w3-container w3-light-white" style="padding:64px 32px"> 
+   <p class="w3-center" >
+
+
+
+     <!-- NAVIGATION START HERE-->
+
+
+
+     <div class="w3-container w3-padding-16 w3-center">  
+      
+      
+      <div class="w3-bar w3-black">
+        <a href=" https://www.2tbf.org/podcast" class="w3-bar-item w3-button w3-padding-16">Podcast</a>
+        <a href=" https://tbf.2tbf.org/" class="w3-bar-item w3-button w3-padding-16">Blog</a>
+        <div class="w3-dropdown-hover">
+          <button class="w3-button w3-padding-16">
+            More Links <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+            <a href="https://www.bitews.com/home" class="w3-bar-item w3-button">BSL</a>
+            <a href="https://www.bitews.com/design" class="w3-bar-item w3-button">Design</a>
+            <a href="https://www.bitews.com/order" class="w3-bar-item w3-button">Order</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- NAVIGATION END THE ABOVE LINE-->
+      
+  
+ 
+
+      <div class="w3-row-padding w3-padding-16 w3-center" id="sound">
+
+     <h2 class="code" > Properties of Sound <br> </h2>
+   
+  <h3 class="code" > These discuss the very fundamentals of sound, and we'll be referring to this information throughout the semester. <br> </h3> 
+
+
+  <h2 class="code" > Introduction to Audio <br> </h2>
+
+
+
+
+   
+  <img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCou_a59fdtqq3nSILB0ki25UlgstbokIEbfFWs4HzmTG3JBa0TjFljrbnPlYvRjrRw9lAFAfE-AWgBUXNZKJTH8QAQmwp-VRF5rNBYLQhBX9w6oNsaTh31H9Cz7L0p45-P64BY4kp32litLGFupK6ozTRz6U5i4IwBCcjA7Bz_mpqA_79jFups3crxpU/s1200/i3.PNG"
+   style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+
+ 
+ <p class="code" style= "text-align:left;"  > This beginner-level tutorial covers the basics of audio production. It is suitable for anyone wanting to learn more about working with sound, 
+  in either amateur or professional situations. The tutorial is five pages and takes about 20 minutes to complete.<br>  </p>
+
+
+
+  <h2 class="code" style= "text-align:left;" > What is "Audio"? <br> </h2>
+
+ 
+ <p class="code" style= "text-align:left;" > Audio means "of sound" or "of the reproduction of sound". Specifically, it refers to the range of frequencies detectable by the human ear — approximately 
+  20Hz to 20kHz. It's not a bad idea to memories those numbers — 20Hz is the lowest-pitched (bassist) sound we can hear, 20kHz is the highest pitch we can hear.<br> </p>
+ 
+   
+   
+ 
+  <p class="code" style= "text-align:left;" > Audio work involves the production, recording, manipulation and reproduction of sound waves. To understand audio you must have a grasp of two things: <br>  </p>
+   
+
+
+
+ <!-- ሁለት ኮለመን ያለው ኮድ ከዚህ በላይ ያልቃል -->
+ 
+ 
+ 
+ <p class="code" style= "text-align:left;" >  1.	Sound Waves: What they are, how they are produced and how we hear them.   <br>  </p>
+   
+ 
+ <p class="code" style= "text-align:left;" >  2.	Sound Equipment: What the different components are, what they do, how to choose the correct equipment and use it properly.    <br>  </p>
+
+
+
+
+ <p class="code" style= "text-align:left;" >   Fortunately it's not particularly difficult. Audio theory is simpler than video theory and once you understand the basic path from the sound source through the sound equipment to the ear, it all starts to make sense.
+  Technical note: In physics, sound is a form of energy known as acoustical energy.   <br> </p>
+
+
+
+
+  <h2 class="code" style= "text-align:left;" >   The Field of Audio Work  <br> </h2>
+
+
+
+
+
+ <p class="code" style= "text-align:left;" >  The field of audio is vast, with many areas of specialty. Hobbyists use audio for all sorts of things, and audio professionals can be found in a huge range of vocations. Some common areas of audio work include:  <br>  </p>
+
+
+
+
+
+    <li   li class="code" style= "text-align:left;" ul class="a" li>  	Studio Sound Engineer    <br> </li>
+
+    <li   li class="code" style= "text-align:left;" ul class="a" li>  	Live Sound Engineer    <br> </li>
+
+    <li   li class="code" style= "text-align:left;" ul class="a" li>   	Musician   <br> </li>
+
+    <li   li class="code" style= "text-align:left;" ul class="a" li>  	Music Producer   <br> </li>
+
+    <li   li class="code" style= "text-align:left;" ul class="a" li>   	DJ  <br> </li>
+
+    <li   li class="code" style= "text-align:left;" ul class="a" li>   	Radio technician  <br> </li>
+
+    <li   li class="code" style= "text-align:left;" ul class="a" li>      	Film/Television Sound Recordist   <br> </li>
+
+    <li   li class="code" style= "text-align:left;" ul class="a" li>  	Field Sound Engineer   <br> </li>
+
+    <li   li class="code" style= "text-align:left;" ul class="a" li>   	Audio Editor  <br> </li>
+
+    <li   li class="code" style= "text-align:left;" ul class="a" li>     	Post-Production Audio Creator  <br> </li>
+
+
+
+
+     
+  <img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifYcv4TIGr2bEK5n6tV3OO-tRf-FvOv8H1pK8sA_svJMnl54LNSEpAQFIdAk5G3lKwwc-TnDNGAUATABy9AjHv38dGhJLxgGCCmcmfi9VOIC_AqIlUuVFqxptOIn_ZLS3iq3Fg5nBqrtwzvdtITIGZkEHvVE3nnD-965X7iYLT9JJoFbMTZ2mSUVsQgpg/s1200/i4.PNG "
+  style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+
+
+
+
+
+     
+ <p class="code" style= "text-align:left;" > In addition, many other professions require a level of audio proficiency. For example, video camera operators should know enough about audio to be able to record good quality sound with their pictures. <br> </p>
+
+
+
+ <p class="code" style= "text-align:left;" > Speaking of video-making, it's important to recognize the importance of audio in film and video. A common mistake amongst amateurs is to concentrate only on the vision and 
+  assume that as long as the microphone is working the audio will be fine. However, satisfactory audio requires skill and effort. Sound is critical to the flow of the programme — 
+  indeed in many situations high quality sound is more important than high quality video.<br>  </p>
+
+
+  <p class="code" style= "text-align:left;" >  Most jobs in audio production require some sort of specialist skill set, whether it be micing up a drum kit or creating synthetic sound effects. 
+  Before you get too carried away with learning specific tasks, you should make sure you have a general grounding in the principles of sound. Once you have done this homework you will be well placed to begin specializing. <br> </p>
+
+
+
+  <p class="code" style= "text-align:left;" > The first thing to tackle is basic sound wave theory... <br> </p>
+
+
+
+
+  <h2 class="code" style= "text-align:left;"> How Sound Waves Work  <br> </h2>
+<p class="code" style= "text-align:left;"  > Before you learn how sound equipment works it's very important to understand how sound waves work. This knowledge will form the foundation of everything you do in the field of audio. <br>  </p>
+
+<img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiLL15yc0zqLpnQ20j1X4Ljfj9UTUpveXZCcXaZIGZTRca_8yGWVJQR1391tHcTUR3R3l0eXUWCbdHH8enL_kzV3n2J2S4y84uPKyqv_wFxXc-E-B-yAFjeitKNkt04WZ2fISIi8oV49qdaSSaAw0mJLsM7XR9D91M7OSfRSgYYZgGb6KGGGOeu2rEqiA/s1200/i5.PNG  "
+style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+
+
+
+
+
+<p class="code" style= "text-align:left;"  > Sound waves exist as variations of pressure in a medium such as air. They are created by the vibration of an object, which causes the air surrounding it to vibrate. The vibrating air then causes the human eardrum to vibrate, which the brain interprets as sound. <br>  </p>
+ <p class="code" style= "text-align:left;"  > The illustration on the left shows a speaker creating sound waves (click the button to show animation). <br>  </p>
+
+
+ <img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7O4QMddEXLB3QdoOtxlXW4tN9bL-Hz_xHsWNuKIHk3wRi21ri8mtQnhA4yENecHp5P8mFvGvlwemHTouLiHs0kSOYPGTWu3OMBBdvg3DsOh76mNBYb_HpQrU6IiCfpOxOPHtPMRQ0_USW3PpVEF3kZSqykTiO325ruS0y8MZGewvv20AOnD2pAAf89cw/s1200/i2.PNG  "
+ style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+
+
+
+
+
+ <p class="code" style= "text-align:left;"  > Sound waves travel through air in much the same way as water waves travel through water. In fact, since water waves are easy to see and understand, they are often used as an analogy to illustrate how sound waves behave. <br>  </p>
+ 
+
+
+ <img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjs1FzRkZ_UzTKr_wKC17oJQp4V_VyvmLBhlH3fb8wLUEhl4k8ZhnwfgEyT0Ck6aUOiR9mQ550QBTYcQk5pWEp8Xjjva9DllRSfjEMLBviBmOu6PIyVaoNiY_kDH0IDMDPTql0ElqTjMZlwk8MSRgzRKtk8WPm7eW3fB7muJLguRHZdd4zwo_OIwcQRJWQ/s1200/i10.PNG "
+ style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+
+
+ <p class="code" style= "text-align:left;"  > Sound waves can also be shown in a standard x vs y graph, as shown here. This allows us to visualize and work with waves from a mathematical point of view. The resulting curves are known as the "waveform" (i.e. the form of the wave.) <br>  </p>
+<p class="code" style= "text-align:left;"  > The wave shown here represents a constant tone at a set frequency. You will have heard this noise being used as a test or identification signal. This "test tone" creates a nice smooth wave which is ideal for technical purposes. Other sounds create far more erratic waves. <br>  </p>
+
+
+
+
+<p style= "text-align:left;" class="code"> click here  <a href=" https://www.mediacollege.com/media/audio/tone1k-22-8.wav" 
+  target="_blank"> to listen to this tone  </a> </p>
+
+
+
+
+
+
+  <p class="code" style= "text-align:left;"  > Note that a waveform graph is two-dimensional but in the real-world sound waves are three-dimensional. 
+    The graph indicates a wave traveling along a path from left to right, but real sound waves travel in an expanding sphere from the source. However,
+     the 2-dimensional model works fairly well when thinking about how sound travels from one place to another. <br>  </p>
+
+  <p class="code" style= "text-align:left;"  > The next thing to consider is what the graph represents; that is, what it means when the wave hits a high or low point.
+     The following explanation is a simplified way of looking at how sound waves work and how they are represented as a waveform. Don't take it too 
+     literally — treat it as a useful way to visualize what's going on. <br>  </p>
+
+  <p class="code" style= "text-align:left;"  > In an electronic signal, high values represent high positive voltage. When this signal is converted to a sound wave, 
+    you can think of high values as representing areas of increased air pressure. When the waveform hits a high point, this corresponds to molecules of air
+     being packed together densely. When the wave hits a low point the air molecules are spread more thinly. <br>  </p>
+
+
+  <p class="code" style= "text-align:left;"  > In the diagram below, the black dots represent air molecules. As the loudspeaker vibrates, it causes the surrounding molecules
+     to vibrate in a particular pattern represented by the waveform. The vibrating air then causes the listener's eardrum to vibrate in the same pattern. Voilà — Sound! <br>  </p>
+ 
+ 
+ 
+  <h2 class="code" style= "text-align:left;"> Variations in Air Pressure and Corresponding Waveform <br> </h2>
+
+
+<!--  image on page 6 -->
+
+
+  <img src="  https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrv7HC-TdqNxyHb2DbIwCy6o6NXfyRMVYPlw8q6DHvSkvvA_828ffOiA3Gr1_ismtE5GvbspwamPQBLXtQiSmi3XTS578bpTqb5ynpkDbZ0CtrCvuM5Iz9QGOmmHgrhPkRYDyxZlqks_d0sPJG5m_ryh9RdADh0msYrnowstrFw4DoGGezqyf-3IQm8a4/s1200/i7.PNG "
+   style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+
+
+   <p class="code" style= "text-align:left;"  > Note that air molecules do not actually travel from the loudspeaker to the ear (that would be wind). Each individual molecule 
+    only moves a small distance as it vibrates, but it causes the adjacent molecules to vibrate in a rippling effect all the way to the ear. <br>  </p>
+
+
+   <p class="code" style= "text-align:left;"  > Now here's the thing: All audio work is about manipulating sound waves. The end result of your work is this series of high- 
+    and low-pressure zones. That's why it's so important to understand how they work - they are the "material" of your art. <br>  </p>
+
+    
+<!--  image on page 6 -->
+
+
+
+<!--  image on page 8 -->
+ 
+
+<h2 class="code" style= "text-align:left;" >  Sound Wave Properties <br> </h2>
+
+
+
+
+<p class="code" style= "text-align:left;"  > All waves have certain properties. The three most important ones for audio work are shown here:  <br>  </p>
+
+
+<img src="  https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7hGCcVqrcRGIL2QkOtfA7fBijPlQ7r8j3349c7ybife1YbmimyHfJpdA_ZdIBTmN1atjrhLXqGozcgXuposIJfOTTjlrG_TuQcpGZ-btzncqPDeRoWTsPTHdr4YuAIYcrEN9fUKUsswDgn4gVlpfXYOg8BsaHGWi5lBZkmbkGsyS4tBGSj4wF2iax54s/s1200/i8.PNG "
+   style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+
+
+  <p class="code" style= "text-align:left;"  > Wavelength: The distance between any point on a wave and the equivalent point on the next phase. Literally, the length of the wave.  <br>  </p>
+
+
+
+  <img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_7jDdq59_4ARlk0J6M0RslozpbPSZoW5lnHmfzdUODbyfykQ96qDVuVtKasatP5_FPZyYZvUxqq08MnVBjr8ykuIbmkQeSVSkvoG_QvBXv5mILZ487CjtswWwSUJ5TiU0JVWTLeJ46vpMdMlJs-IJ0mn9COxgVkgcn6lsqn30J4Z0ZRKfEeGPfFsii3M/s1200/i9.PNG  "
+  style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+
+<p class="code" style= "text-align:left;"  > Amplitude: The strength or power of a wave signal. The "height" of a wave when viewed as a graph. <br>  </p>
+
+<p class="code" style= "text-align:left;"  > Higher amplitudes are interpreted as a higher volume, hence the name "amplifier" for a device that increases amplitude.  <br>  </p>
+
+
+
+
+<img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjs1FzRkZ_UzTKr_wKC17oJQp4V_VyvmLBhlH3fb8wLUEhl4k8ZhnwfgEyT0Ck6aUOiR9mQ550QBTYcQk5pWEp8Xjjva9DllRSfjEMLBviBmOu6PIyVaoNiY_kDH0IDMDPTql0ElqTjMZlwk8MSRgzRKtk8WPm7eW3fB7muJLguRHZdd4zwo_OIwcQRJWQ/s1200/i10.PNG  "
+style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+
+
+
+<p class="code" style= "text-align:left;"  > Frequency: The number of times the wavelength occurs in one second. Measured in kilohertz (Khz), or cycles per second. The faster the sound source vibrates, the higher the frequency.  <br>  </p>
+
+<p class="code" style= "text-align:left;"  > Higher frequencies are interpreted as a higher pitch. For example, when you sing in a high-pitched voice you are forcing your vocal chords to vibrate quickly.  <br>  </p>
+
+<h2 class="code" style= "text-align:left;"> How Sound Waves Interact with Each Other <br> </h2>
+
+<p class="code" style= "text-align:left;"  >  When different waves collide (e.g. sound from different sources) they interfere with each other. This is called, unsurprisingly, wave interference.
+<h2 class="code" style= "text-align:left;" > Phasing <br> </h2>
+
+<p class="code" style= "text-align:left;"  > The following table illustrates how sound waves (or any other waves) interfere with each other depending on their phase relationship: <br>  </p>
+
+
+
+<img src="  https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDcXAq1NPJzXWL-foCoy7gvX4hDGwsncJ24Jyqxh01Cdh5pU104w5EJvxlEb7-OjvO51MjhVY3V5Sn1lI2FvZ3Ys8T_dJrQDKwpi_wiWpdSBzahx8ubqn-Y5qQ4IfHtcdU0CwAsR8uagOkg_f7w-Qls_HNqe-S40gqtx5ilnSr7D2v2OF8du0Ll7_YLis/s1200/i11.PN "
+style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+
+
+
+
+
+
+<li   li class="code" style= "text-align:left;" ul class="a" li>  Sound waves which are exactly in phase add together to produce a stronger wave.  <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li>  Sound waves which are exactly inverted, or 180 degrees out of phase, cancel each other out and produce silence. This is how many noise-cancellation devices work.   <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> Sound waves which have varying phase relationships produce differing sound effects.   <br> </li>
+
+
+  <p style= "text-align:left;" class="code"> See also: Examples of various  <a href=" https://www.mediacollege.com/misc/wave-theory/example-waves-01.html" 
+target="_blank"> wave interference patterns.  </a> </p>
+
+
+
+
+<h2 class="code" style= "text-align:left;"> Extra Resources <br> </h2>
+
+
+<h2 class="code" style= "text-align:left;"> Online Tone Generator <br> </h2>
+<p class="code" style= "text-align:left;"  > Use these to check out your hearing range, or to get a better sense of how Hertz relates to pitch. <br>  </p>
+
+
+ 
+   <p style= "text-align:left;" class="code"> Tone Generator  <a href=" https://www.szynalski.com/tone-generator/ " 
+target="_blank"> (Links to an external site.)  </a> </p>
+
+
+
+
+  <p style= "text-align:left;" class="code"> Tone Generator  <a href=" https://onlinetonegenerator.com/ l" 
+target="_blank"> (Links to an external site.)  </a> </p>
+
+
+  <p style= "text-align:left;" class="code"> Tone Generator  <a href=" https://jackschaedler.github.io/circles-sines-signals/sincos.html " 
+target="_blank"> (Links to an external site.)  </a> </p>
+
+
+
+
+ 
+<p class="code" style= "text-align:left;"  > And with all this talk about waves, there's more than just sound waves. Take a look at all the other waves in areas below and above the audible spectrum. <br>  </p>
+
+
+
+
+  <p style= "text-align:left;" class="code"> Have some fun with these  <a href=" https://www.physicsclassroom.com/Physics-Interactives/Waves-and-Sound/Simple-Wave-Simulator/Simple-Wave-Simulator-Interactive  " 
+target="_blank">  simulations you can play with (Links to an external site.) to see the different parameters of sound waves (no audio).  </a> </p>
+ 
+
+
+
+
+  <p style= "text-align:left;" class="code">  
+Want to know what frequency a sound is? Use this  <a href=" https://academo.org/demos/virtual-oscilloscope/  " 
+target="_blank">  Virtual Oscilloscope (Links to an external site.).  </a> </p>
+ 
+
+
+ 
+<p class="code" style= "text-align:left;"  >  Check out this 3-minute video to see the power of sound waves in action! <br>  </p>
+ 
+ 
+  <p style= "text-align:left;" class="code">   Decibels are a measurement of sound pressure levels (Links to an external site.)  <a href=" https://ehomerecordingstudio.com/decibels/   " 
+target="_blank"> We'll look at these decibels again later in this course.  </a> </p>
+
+
+ 
+  <p style= "text-align:left;" class="code"> Sometimes two sounds at the same volume seem like they are very different volumes. <a href=" https://ehomerecordingstudio.com/fletcher-munson-curve/   " 
+target="_blank"> This is explained in the Fletcher-Munson Curve. (Links to an external site.)  </a> </p>
+
+
+
+<!-- mixer -->
+<div class="w3-row-padding w3-padding-16 w3-center" id="mixer">
+
+
+<h2 class="code" > Sound Mixers: Overview <br> </h2>
+ 
+ <!-- ሁለት ኮለመን ያለው ኮድ እዚህ ይጀምራል-->
+ 
+ 
+ 
+  <img src="  https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhk-L_pG3YFO7iUl1XB_Nb-OBfCq9Gikq6YYtduV_BiQu7QmC2OmuQYKs_YsS9T9prjJm5YBZvcUGHLc0xVwPDJ8hhz20kwmbSkAg4ExQ3drgaw4TjNFGEyAG3DgPmbLJYm7pQv9ndWTnTE2mhfJSMqxYuEqlM1gv4oFoLuAj_BInrNP55vEf96_82njuM/s1200/i1.PNG "
+   style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+ 
+   <div class="w3-center" >
+    
+
+
+
+   
+ <!-- <h3 class="code" > RACK FOCUS <br> </h3> --> 
+ 
+
+ 
+
+
+ <p class="code" style= "text-align:left;"  > A sound mixer is a device which takes two or more audio signals, mixes them together and provides one or more output signals. The diagram on the right shows a simple mixer with six inputs and two outputs. <br>  </p>
+ <p class="code" style= "text-align:left;"  > As well as combining signals, mixers allow you to adjust levels, enhance sound with equalization and effects, create monitor feeds, record various mixes, etc. <br>  </p>
+ <p class="code" style= "text-align:left;"  > Mixers come in a wide variety of sizes and designs, from small portable units to massive studio consoles. The term mixer can refer to any type of sound mixer; the terms sound desk and sound console refer to mixers which sit on a desk surface as in a studio setting. <br>  </p>
+ <p class="code" style= "text-align:left;"  > Sound mixers can look very intimidating to the newbie because they have so many buttons and other controls. However, once you understand how they work you realise that many of these controls are duplicated and it's not as difficult as it first seems. <br>  </p>
+ <h2 class="code" style= "text-align:left;" > Applications <br> </h2>
+ <p class="code" style= "text-align:left;"  > Some of the most common uses for sound mixers include: <br>  </p>
+ <li   li class="code" style= "text-align:left;" ul class="a" li> Music studios and live performances: Combining different instruments into a stereo master mix and additional monitoring mixes. <br> </li>
+ 
+ <li   li class="code" style= "text-align:left;" ul class="a" li> Television studios: Combining sound from microphones, tape machines and other sources. <br> </li>
+ 
+ <li   li class="code" style= "text-align:left;" ul class="a" li> Field shoots: Combining multiple microphones into 2 or 4 channels for easier recording.<br> </li>
+ 
+ <h2 class="code" style= "text-align:left;"> Channels <br> </h2>
+ <p class="code" style= "text-align:left;"  > Mixers are frequently described by the number of channels they have. For example, a "12-channel mixer" has 12 input channels, i.e. you can plug in 12 separate input sources. You might also see a specification such as "24x4x2" which means 24 input channels, 4 subgroup channels and two output channels. <br>  </p>
+ <p class="code" style= "text-align:left;"  > More channels means more flexibility, so more channels is generally better. See mixer channels for more information. <br>  </p>
+ 
+    <p style= "text-align:left;" class="code"> See  <a href=" https://www.mediacollege.com/audio/mixer/channel.html  " 
+ target="_blank"> Mixer Channels  </a> </p>
+ 
+ <h2 class="code" style= "text-align:left;"> Advanced Mixing <br> </h2>
+ <p class="code" style= "text-align:left;"  > The diagram below shows how a mixer can provide additional outputs for monitoring, recording, etc. Even this is just scratching the surface of what advanced mixers are capable of. <br>  </p>
+
+
+
+ <img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZXpS5i-FMxHUsWR80a33tG9boJqOKT9T7UQ5Ppp8S4r5OTEKfGmX6vbD9b4-MN10Q7wdh2BNio2Fokj5eAuyHIW14B0yUtrvRewFZLTMKImnuNA_DqUH2OWSySHMfEnE9n0FSkPp2vE8kF4e8Ol16Zn41iS92dHLxWGJafs3lHy_0no-YoJUjbD_EoT4/s1200/i12.PNG"
+ style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+
+
+
+ <h2 class="code" style= "text-align:left;" > Sound Mixer Channels <br> </h2>
+<p class="code" style= "text-align:left;"  > Each input source comes into the mixer through a channel. The more channels a mixer has, the more sources it can accept. The following examples show some common ways to describe a mixer's complement of channels: <br>  </p>
+
+<p class="code" style= "text-align:left;"  > 12-channel
+12 input channels.
+16x2
+16 input channels, 2 output channels.
+24x4x2
+24 input channels, 4 subgroup channels and two output channels. <br>  </p>
+
+
+
+<img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQjZo5TXAHMUlWrLbPhLT00-rm3iSG5vdqUrssMXXSuUi57tMhBw6jwdBYWlIR9EfbnpdKZxMYHv6HMcz_avmfSrQU62kTI2fI6eDZDV3zkjlD25u-Mql1-r-PEdMiRL_Z-Jepbah6Ay7JdhzNtp-dUnnFtMBRwL03boPSYeTGoZK0kw87UEGlZ_Q4iEQ/s1200/i13.PNG"
+ style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+
+
+
+ <h2 class="code" style= "text-align:left;"> Input Channels <br> </h2>
+
+ <p class="code" style= "text-align:left;"  > On most sound desks, input channels take up most of the space. All those rows of knobs are channels. Exactly what controls each channel has depends on the mixer but most mixers share common features. The list below details the controls available on a typical mixer channel. <br>  </p>
+  <p class="code" style= "text-align:left;"  > Input Gain / Attenuation: The level of the signal as it enters the channel. In most cases this will be a pot (potentiometer) knob which adjusts the level. The idea is to adjust the levels of all input sources (which will be different depending on the type of source) to an ideal level for the mixer. There may also be a switch or pad which will increase or decrease the level by a set amount (e.g. mic/line switch). <br>  </p>
+ <p style= "text-align:left;" class="code"> Phantom Power: Turns  <a href=" https://www.mediacollege.com/audio/phantom-power/   " 
+ target="_blank"> phantom power on or off for the channel. </a> </p>
+ 
+ <p style= "text-align:left;" class="code"> Equalization: Most mixers have at least two EQ controls (high and low frequencies). Good mixers have more advanced controls,  <a href=" https://www.mediacollege.com/audio/eq/parametric.html    " 
+ target="_blank"> in particular, parametric equalization. </a> </p>
+ 
+ <p style= "text-align:left;" class="code"> See also:   <a href=" https://www.mediacollege.com/audio/eq/   " 
+ target="_blank"> Audio equalization. </a> </p>
+ 
+ 
+ <p style= "text-align:left;" class="code"> Auxiliary Channels: Sometimes called aux channels for short, auxiliary channels are a way to send a "copy" of the channel signal somewhere else. There are many reasons to do this, most commonly to provide separate monitor feeds or to add effects   <a href=" https://www.mediacollege.com/audio/reverb/    " 
+ target="_blank"> (reverb etc). </a> </p>
+ 
+ 
+ <p class="code" style= "text-align:left;"  > Pan & Assignment: Each channel can be panned left or right on the master mix. Advanced mixers also allow the channel to be "assigned" in various ways, e.g. sent directly to the main mix or sent only to a particular subgroup. <br>  </p>
+ 
+ <p class="code" style= "text-align:left;"  >  Solo / Mute / PFL: These switches control how the channel is monitored. They do not affect the actual output of the channel. <br>  </p>
+ 
+ <p class="code" style= "text-align:left;"  >  Channel On / Off: Turns the entire channel on or off. <br>  </p>
+ 
+ <p class="code" style= "text-align:left;"  >  Slider: The level of the channel signal as it leaves the channel and heads to the next stage (subgroup or master mix). <br>  </p>
+ <h2 class="code" > Subgroup Channels <br> </h2> 
+ 
+ <p class="code" style= "text-align:left;"  > Larger sound desks usually have a set of subgroups, which provide a way to sub-mix groups of channels before they are sent to the main output mix. For example, you might have 10 input channels for the drum mics which are assigned to 2 subgroup channels, which in turn are assigned to the master mix. This way you only need to adjust the two subgroup sliders to adjust the level of the entire drum kit. <br>  </p>
+ <h2 class="code" style= "text-align:left;" > Sound Mixers: Channel Inputs <br> </h2>
+ <p class="code" style= "text-align:left;"  >  The first point of each channel's pathway is the input socket, where the sound source plugs into the mixer. It is important to note what type of input sockets are available — the most common types are XLR, 6.5mm Jack and RCA. Input sockets are usually located either on the rear panel of the mixer or on the top above each channel.<br>  </p>
+ 
+ <p style= "text-align:left;" class="code">  the most common types are  <a href=" https://www.mediacollege.com/hardware/connectivity/connectors/xlr/    " 
+ target="_blank"> XLR </a> </p>
+ 
+ <p style= "text-align:left;" class="code">  the most common types are   <a href=" https://www.mediacollege.com/hardware/connectivity/connectors/jack/    " 
+ target="_blank"> 6.5mm </a> </p>
+ 
+ <p style= "text-align:left;" class="code">  the most common types are   <a href=" https://www.mediacollege.com/hardware/connectivity/connectors/rca/   " 
+ target="_blank"> RCA </a> </p>
+
+
+
+
+
+ <img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTvKF71eDRo1fs79VEVWsgtAUbC9Ick-93nEDVdfLbO2gAf3cEgTg2y4Y1zIwhyphenhyphengdM_tbPY8IYlyPYIzYlcIdBB7lV0DVE69CEnkDBMKePX6Dcf3DT-LFrBlznJMpJPnvBRyIur9Ztizei1w3yCmN40t-J1gUX7p62o5TWBC3_w-ZnrA78KCIAop1xoco/s1200/i15.PNG  "
+ style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+
+
+
+
+ <p class="code" style= "text-align:left;"  > There are no hard-and-fast rules about what type of equipment uses each type of connector, but here are some general guidelines: <br>  </p> 
+
+
+ <p class="code" style= "text-align:left;"  >  XLR
+ Microphones and some audio devices. Usually balanced audio, but XLRs can also accommodate unbalanced signals.
+ 6.5mm Jack
+ Musical instruments such as electric guitars, as well as various audio devices. Mono jacks are unbalanced, stereo jacks can be either unbalanced stereo or balanced mono.
+ RCA
+ Musical devices such as disc players, effects units, etc.  <br>  </p> 
+ 
+ 
+ 
+ <p style= "text-align:left;" class="code"> XLR   <a href=" https://www.mediacollege.com/audio/balanced/   " 
+ target="_blank"> balanced audio, </a> </p>
+ 
+ <p style= "text-align:left;" class="code"> 6.5 mm   <a href=" https://www.mediacollege.com/audio/balanced/cable-unbalanced.html   " 
+ target="_blank"> unbalanced signals </a> </p>
+ 
+ <p style= "text-align:left;" class="code">  RCA  <a href=" https://www.mediacollege.com/audio/effects/   " 
+ target="_blank"> effects units </a> </p>
+ 
+ 
+ <h2 class="code" style= "text-align:left;"> Input Levels <br> </h2>
+ 
+ <p class="code" style= "text-align:left;"  > The level of an audio signal refers to the voltage level of the signal. Signals can be divided into three categories: Mic-level (low), line-level (a bit higher) and loudspeaker-level (very high). Microphones produce a mic-level signal, whereas most audio devices such as disc players produce a line-level signal. Loudspeaker-level signals are produced by amplifiers and are only appropriate for plugging into a speaker — never plug a loudspeaker-level signal into anything else.  <br>  </p> 
+ 
+ <p class="code" style= "text-align:left;"  > Sound mixers must be able to accommodate both mic-level and line-level signals. In some cases there are two separate inputs for each channel and you select the appropriate one. It is also common to include some sort of switch to select between inputs and/or signal levels.  <br>  </p> 
+
+
+ <img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhO1pwFTu68eT2YnL4o2rVu5OS14A0KFdsT7eHy89auLMrvqGMrPS4ws2bx81GsT-Nq4dJyfYZQumfCkGx9AnpO-hC0MW3_mEket7anb9-8Z-8xrM2ELeM3Z9_zKHCqTFJfeFHo_qAQnL3h3UQntxmDE-tKPd2OHMrbPgvofM528BKfPjIlPDbqvhYTvVU/s1200/i16.PNG "
+ style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+
+
+
+
+ <h2 class="code" style= "text-align:left;"> Input Sockets and Controls <br> </h2>
+
+<p class="code" style= "text-align:left;"  > The example on the right shows the input connections on a typical mixer. This mixer has two input sockets — an XLR for mic-level inputs and a 6.5mm jack for line-level inputs. It also has a pad button which reduces the input level (gain) by 20dB. This is useful when you have a line-level source that you want to plug into the mic input. <br>  </p> 
+
+<p class="code" style= "text-align:left;"  > Some mixers also offer RCA inputs or digital audio inputs for each channel. Some mixers provide different sockets for different channels, for example, XLR for the first 6 channels and RCA for the remainder.  <br>  </p> 
+<h2 class="code" style= "text-align:left;" > Input Gain <br> </h2>
+
+<p class="code" style= "text-align:left;"  > When a signal enters the mixer, one of the first controls is the input gain. This is a knob which adjusts the signal level before it continues to the main parts of the channel. The input gain is usually set once when the source is plugged in and left at the same level — any volume adjustments are made by the channel fader rather than the gain control.  <br>  </p> 
+Set the gain control so that when the fader is at 0dB the signal is peaking around 0dB on the VU meters.
+<h2 class="code" style= "text-align:left;" > Other Controls and Considerations <br> </h2>
+
+<p class="code" style= "text-align:left;"  > Phasing: Some equipment and cables are wired with different phasing, that is, the wires in the cable which carry the signal are arranged differently. This will kill any sound from that source. To fix this problem, some mixers have a phase selector which will change the phasing at the input stage. <br>  </p> 
+
+<p style= "text-align:left;" class="code">  Phantom Power: Some mixers have the option to provide a small voltage back up the input cable to power a microphone or other device  <a href=" https://www.mediacollege.com/audio/phantom-power/   " 
+target="_blank">  See Phantom Power for more information.  </a> </p>
+
+
+<h2 class="code" style= "text-align:left;"> Sound Mixers: Channel Equalization <br> </h2>
+
+<img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTgM_J07NCpaV2jnRmbtPVsxAfpEqGQsXBRDkhTe9gR0TE-HvhZ6AbWHSCU15F7mk_hY41Fd5DgzS4rQVbC5VvE_KrBYHTZw7hSMtCBuJABVZ15GBncgNKmCs945iLkfw1i_KrKBgXZJ1_u9AanpDtd0F4pRWDIORl2msb9ge1eqPj1_3Y5N2ZAkrMiYM/s1200/i17.PNG  "
+style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+
+
+<p class="code" style= "text-align:left;"  > Most mixers have some of sort equalization controls for each channel. Channel equalizers use knobs (rather than sliders), and can be anything from simple tone controls to multiple parametric controls.<br>  </p> 
+
+<p class="code" style= "text-align:left;"  > The first example on the right is a simple 2-way equalizer, sometimes referred to as bass/treble or low/high. The upper knob adjusts high frequencies (treble) and the lower knob adjusts low frequencies (bass). This is a fairly coarse type of equalization, suitable for making rough adjustments to the overall tone but is not much use for fine control.<br>  </p> 
+
+
+
+<img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjewo3PNixzhFgDXmg9xW_B5BdjTTd3dCFSi-QpyRSxpILTRuuZBIn-CT8_FXwWkNgzj7rGBAy7t6S3LTzCNsfeuOYX4t1Hsm0MzcrutGDCMepgMzJZStxyJAOjbIxBNpchHu6P1ZKiDuw5-L4CfxGayP7EvXuoK7xdvphjRWZlXYonb4YOZ6fISLAd1SI/s1200/i19.PNG "
+style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+
+
+
+<p class="code" style= "text-align:left;"  > This next example is a 4-way equalizer. The top and bottom knobs are simple high and low frequency adjustments (HF and LF). <br>  </p> 
+<p style= "text-align:left;" class="code">  The middle controls consist of two pairs of knobs. These pairs are parametric equalizers — each pair works together to adjust a frequency range chosen by the operator. <a href=" https://www.mediacollege.com/audio/eq/parametric.html    " 
+target="_blank">  The brown knob selects the frequency range to adjust and the green knob makes the adjustment.  </a> </p>
+
+<p class="code" style= "text-align:left;"  > The top pair works in the high-mid frequency range (0.6KHz to 10KHz), the lower pair works in the low-mid range (0.15 to 2.4KHz). <br>  </p> 
+<p class="code" style= "text-align:left;"  > The "EQ" button below the controls turns the equalization on and off for this channel. This lets you easily compare the treated and untreated sound.
+<p class="code" style= "text-align:left;"  > It is common for mixers with parametric equalizers to combine each pair of knobs into a single 2-stage knob with one on top of the other. This saves space which is always a bonus for mixing consoles. <br>  </p> 
+
+<h2 class="code" style= "text-align:left;">   Notes About Channel Equalization <br> </h2>
+
+<p class="code" style= "text-align:left;"  > If the mixer provides good parametric equalization you will usually find that these controls are more than adequate for equalizing individual sources. If the mixer is limited to very simple equalization, you may want to use external equalizers. For example, you could add a graphic equalizer to a channel using the insert feature. <br>  </p> 
+<p class="code" style= "text-align:left;"  > In many situations you will use additional equalization outside the mixer. In live sound situations, for example, you will probably have at least one stereo graphic equalizer on the master output.<br>  </p>  
+
+<h2 class="code" style= "text-align:left;"style= "text-align:left;"> Sound Mixers: Auxiliary Channels <br> </h2>
+
+
+<img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjso4Emzhjpu596TZoHII-Ut1yZEDjR4xPWAfM77FKBvd4vwV1w-lUG9R0loFCbPpxzsfXOy-9qqonKonH_KHtA9f56Nbr7HcYy1MMCufgigg3Ci-MyVo6IuyD8mDi6YZoie5PDoUyV3F9fEPMP3MX83K8IMMZU7kDUsmXCuSNYfE8KBflxCw3RbBARY3U/s1200/i26.PNG "
+style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+
+
+
+
+<p style= "text-align:left;" class="code"> Most sound desks include one or more auxiliary channels (often referred to as aux channels for short). <a href=" https://www.mediacollege.com/audio/mixer/channel.html     " 
+  target="_blank"> This feature allows you to send a secondary feed of an input channel's audio signal to another destination, independent of the channel's main output.  </a> </p>
+  <p class="code" style= "text-align:left;"  > The example below shows a four-channel mixer, with the main signal paths shown in green. Each input channel includes an auxiliary channel control knob — 
+    this adjusts the level of the signal sent to the auxiliary output (shown in blue). The auxiliary output is the sum of the signals sent from each channel. If a particular channel's auxiliary knob 
+    is turned right down, that channel is not contributing to the auxiliary channel. <br>  </p> 
+
+
+  <img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7bcbKxhPHc_TXUtJduru7QY4_sG3UK0WKsxbYy2YcT6xbp8rsSkAQVX5GO9LdNl5Ds1hTjhSLth17lcqkNGpx8oiI-1si86Ol68CFvA2wUlQd3FONUMieUBy7QNEgvWVQ43oOBP2k6VOGbrrKdGrt3k4j1wLS9VXvHVt2o91z7C9y6nngjUtTiRENZLk/s1200/i14.PNG  "
+  style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+
+
+  <p class="code" style= "text-align:left;"  > In the example above, the auxiliary output is sent to a monitoring system. This enables a monitor feed which is different to the main output, which can be very useful. There are many other applications for auxiliary channels, including:<br>  </p>  
+<li   li class="code" style= "text-align:left;" ul class="a" li>  Multiple separate monitor feeds.  <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li>  Private communication, e.g. between the sound desk and the stage.  <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li>  Incorporating effects.  <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li>  Recording different mixes.  <br> </li>
+<p class="code" style= "text-align:left;"  > Mixers are not limited to a single auxiliary channel, in fact it is common to have up to four or more. The following example has two auxiliary channels — "Aux 1" is used for a monitor and "Aux 2" is used for an effects unit. <br>  </p> 
+
+
+<img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6a3SCxfApdEjzAJmP6p4H-vEkAIzbuegW-PDb-XFOr2EkPz6JMiEUicHXduyW8UBuM7PNcgLbJevF5uCbbhmUZxNMAcO7I6B9cYe0-f457b-ajNcBXOq4_PK3XhrY47fO18bbutXr3lKf78SSYaghEtEqovi6TybTHZZedtWaaH4lPeI_z-t5OoFlksI/s1200/i18.PNG  "
+style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+
+
+
+<p style= "text-align:left;" class="code"> Note that the monitor channel (Aux 1) is "one way", i.e. the channel is sent away from the mixer and doesn't come back. However the Aux 2 channel leaves the mixer via the aux send output, goes through the effects unit, then comes back into the mixer via the aux return input. <a href=" https://www.mediacollege.com/glossary/b/bus.html     " 
+  target="_blank">  It is then mixed into the master stereo bus.  </a> </p>
+
+
+
+
+<img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7vNX7rKAdBOGbMfFt2k4717jUN3AZP_vzqCFV3hXaomDOHw1PB4G7SoWoiEQu7aOi3y5B4veNtMxfDH6ZzDodntNp8FTvuapNJ9VfK5JYrCyWtw1kysoQZxEljTv2c8ppczBdLkl4T-BXQjKkG83lnZoCcRXg-oInT7PbuDd8P7AI_TeVsB3ZeA8gIzw/s1200/i20.PNG  "
+style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+
+
+
+<p class="code" style= "text-align:left;"  > The auxiliary output from each channel can be either pre-fader or post-fader. <br>  </p>  
+<p class="code" style= "text-align:left;"  > A pre-fader output is independent of the channel fader, i.e. the auxiliary output stays the same level whatever the fader is set to. <br>  </p>  
+<p class="code" style= "text-align:left;"  > A post-fader output is dependent on the fader level. If you turn the fader down the auxiliary output goes down as well. <br>  </p>  
+<p class="code" style= "text-align:left;"  > Many mixers allow you to choose which method to use with a selector button. The example pictured right shows a mixer channel with four auxiliary
+   channels and two pre/post selectors. Each selector applies to the two channels above it, so for example, the button in the middle makes both Aux 1 and Aux 2 either pre-fader or post-fader. <br>  </p>  
+
+<h2 class="code" style= "text-align:left;" > Sound Mixers: Channel Assigning & Panning <br> </h2>
+
+<p style= "text-align:left;" class="code">  One of the last sets of controls on each channel, usually just before the fader,  <a href=" https://www.mediacollege.com/audio/mixer/channel.html    " target="_blank">   is the channel assign and pan. </a> </p>
+
+
+
+<img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9z-HMuWjktG0Xg0dmIH5RoVKPAgzzZbIyl2zuYhfhDJ-J5cr3kQ9c0cE-4DZDox_8faOSUKJoY3L0VN50utcpwXCKDT3SEVvseoewXIzfXfQGT0TvBbwyWYpwbBkeN79lxC8TzaOar8nazn5lUOcEOpH-ycMzA5mJoJWpbD21zVepzoC1e4UIPV__OA8/s1200/i21.PNG  "
+style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+
+
+
+
+<h2 class="code" style= "text-align:left;" > Pan <br> </h2>
+<p style= "text-align:left;" class="code"> Almost all stereo mixers allow you to assign the amount of panning. This is a knob which goes from full left to full right. This is where the channel signal appears on the master mix (or across two subgroups if this is how the channel is assigned). If the knob is turned fully left, the channel audio will only come through the left speaker in the final mix. <a href=" https://www.mediacollege.com/audio/mixer/subgroups.html    " target="_blank">  Turn the knob right to place the channel on the right side of the mix. </a> </p>
+<h2 class="code" style= "text-align:left;"> Assign <br> </h2> 
+<p class="code" style= "text-align:left;"  > This option may be absent on smaller mixers but is quite important on large consoles. The assigned buttons determine where the channel signal is sent. <br>  </p>  
+<p class="code" style= "text-align:left;"  > In many situations the signal is simply sent to the main master output. In small mixers with no assigned controls this happens automatically. <br>  </p>  
+<p class="code" style= "text-align:left;"  > However you may not want a channel to be fed directly into the main mix. The most common alternative is to send the channel to a subgroup first. For example, you could send all the drum microphones to their own dedicated subgroup which is then sent to the main mix. This way, you can adjust the overall level of all the drums by adjusting the subgroup level. <br>  </p>  
+
+
+
+
+<img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeLDzL8-Yfz-4NrBLHkmVaRhFzPyl6b2iVV7m8xIYP-2wWZddl6fyC-j_0Xy0g-N5zy42viORbA5ugInGgBKAj8XY5YzdPLZrOrISDE62OnKlWEM_JQDciOmytWatGwPq9AkiugO4Hvd-zFKNe6Ni9SSs-2mws1JXwN9Fuq5Yjk8TGGjTOgHmbjiqSwT0/s1200/i22.PNG "
+style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+
+
+
+<p class="code" style= "text-align:left;"  >  In the example pictured, the options are: <br>  </p>  
+<li   li class="code" style= "text-align:left;" ul class="a" li> Mix: The channel goes straight to the main stereo mix  <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> 1-2: The channel goes to subgroup 1 and/or 2. If the pan control is set fully left the channel goes only to subgroup 1, if the pan is set fully right the channel goes only to subgroup 2. If the pan is centered the channel goes to subgroups 1 and 2 equally.  <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> 3-4: The channel goes to subgroups 3 and/or 4, with the same conditions as above.  <br> </li>
+<p class="code" style= "text-align:left;"  >  For stereo applications it is common to use subgroups in pairs to maintain stereo separation. For example, it is preferable to use two subgroups for the drums so you can pan the toms and cymbals from left to right. <br>  </p> 
+<p class="code" style= "text-align:left;"  >  You can assign the channel to any combination of the available options. <br>  </p> 
+<p style= "text-align:left;" class="code"> In some cases you may not want the channel to go to the main mix at all. For example, you may have a channel set up for communicating with the stage via an aux channel. <a href=" https://www.mediacollege.com/audio/mixer/auxiliary-channels.html    " target="_blank">   In this case you don't assign the channel anywhere. </a> </p>
+<h2 class="code" style= "text-align:left;"> Sound Mixers: PFL <br> </h2>
+
+
+
+
+
+
+<p class="code" style= "text-align:left;"  > PFL means Pre-Fade Listen. It's function is to do exactly that — listen to the channel's audio at a point before the fader takes effect. The PFL button is usually located just above the channel fader. In the example on the right, it's the red button (the red LED lights when PFL is engaged). <br>  </p> 
+<p class="code" style= "text-align:left;"  > Note: PFL is often pronounced "piffel". <br>  </p> 
+<p style= "text-align:left;" class="code"> When you press the PFL button, the main monitor output will stop monitoring anything else and the only audio will be the selected PFL channel(s). This does not affect the main output mix —  <a href=" https://www.mediacollege.com/glossary/b/bus.html     " target="_blank">   just the sound you hear on the monitor bus. Note that all selected PFL channels will be monitored, so you can press as many PFL buttons as you like. </a> </p>
+<p style= "text-align:left;" class="code"> PFL also takes over the mixer's  <a href=" https://www.mediacollege.com/audio/monitoring/vu.html     " target="_blank">  VU meters. </a> </p>
+
+<p style= "text-align:left;" class="code">  PFL is useful when setting the initial input gain of a channel,  <a href=" https://www.mediacollege.com/audio/mixer/channel-input.html     " target="_blank"> as it reflects the pre-fade level.  </a> </p>
+<h2 class="code"style= "text-align:left;" > PFL vs Solo <br> </h2>
+<p class="code" style= "text-align:left;"  > PFL is similar to the solo button. There are two differences: <br>  </p> 
+<li   li class="code" style= "text-align:left;" ul class="a" li> PFL is pre-fader, solo is post-fader (i.e. the fader affects the solo level). <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> PFL does not affect the master output but soloing a channel may do so (depending on the mixer). <br> </li>
+
+<h2 class="code" style= "text-align:left;"> Sound Mixers: Channel Faders <br> </h2>
+
+
+<img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEit8wf7l13gGcMsZHKL5dW9Mqb16-wr-0SQxah7qhMP7wZY_J1dwgtrzKSSdENnwI5yia5Xsrv1iygo9E_YJE4dEYuGlcuubiMCBS6DEVa3nGxNXpdBax6eAcdVX0l9NOpo6vEIJLFhxPK9533SxtOodYbrhy3ZYYjlLEKRTZB_WyaeDotvHcRSSNjcCho/s1200/i23.PNG  "
+style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+
+
+
+
+<p class="code" style= "text-align:left;"  > Each channel has it's own fader (slider) to adjust the volume of the channel's signal before it is sent to the next stage (subgroup or master mix). <br>  </p> 
+<p class="code" style= "text-align:left;"  > A slider is a potentiometer, or variable resistor. This is a simple control which varies the amount of resistance and therefore the signal level. If you are able to look into the inside of your console you will see exactly how simple a fader is. <br>  </p> 
+<p class="code" style= "text-align:left;"  > As a rule it is desirable to run the fader around the 0dB mark for optimum sound quality, although this will obviously vary a lot. <br>  </p> 
+Remember that there are two ways to adjust a channel's level: The input gain and the output fader. Make sure the input gain provides a strong signal level to the channel without clipping and leave it at that level — use the fader for ongoing adjustments.
+
+
+<h2 class="code" style= "text-align:left;"> Sound Mixers: Subgroups <br> </h2>
+<p style= "text-align:left;" class="code">  Subgroups are a way to "pre-mix" a number of channels on a sound console before sending them to the master output mix. In the following diagram, channels 1 and 2 are assigned directly to the master output bus. Channels 3,4,5 and 6 are assigned to subgroup 1, <a href=" https://www.mediacollege.com/glossary/b/bus.html     " target="_blank"> which in turn is assigned to the master output. </a> </p>
+
+
+
+
+
+
+<p class="code" style= "text-align:left;"  > Subgroups have many uses and advantages, the most obvious being that you can pre-mix (sub-mix) groups of inputs.  <br>  </p> 
+<p class="code" style= "text-align:left;"  > For example, if you have six backing vocalists you can set up a good mix just for them, balancing each voice to get a nice overall effect. If you then send all six channels to one subgroup, you can adjust all backing vocals with a single subgroup slider while still maintaining the balance between the individual voices.  <br>  </p> 
+<p class="code" style= "text-align:left;"  > Note that if your mixing console's subgroups are mono, you will need to use them in pairs to maintain a stereo effect. For each pair, one subgroup is the left channel and the other is right. Each channel can be panned across the two subgroups, while the subgroups are panned completely left and right into the master output bus.  <br>  </p> 
+
+<h2 class="code" style= "text-align:left;"> Sound Mixers: Outputs <br> </h2>
+
+The main output from most mixing devices is a stereo output, using two output sockets which should be fairly obvious and easy to locate. The connectors are usually 3-pin XLRs on larger consoles, but can also be 6.5mm TR (jack) sockets or RCA sockets.
+<p style= "text-align:left;" class="code">  The main output  <a href=" https://www.mediacollege.com/hardware/connectivity/connectors/xlr/   " 
+target="_blank"> XLRs </a> </p>
+
+<p style= "text-align:left;" class="code">  The main output  <a href=" https://www.mediacollege.com/hardware/connectivity/connectors/jack/   " 
+target="_blank"> TR (jack)  </a> </p>
+
+<p style= "text-align:left;" class="code">  The main output  <a href=" https://www.mediacollege.com/hardware/connectivity/connectors/rca/    " 
+target="_blank"> RCA  </a> </p>
+
+
+The level of the output signal is monitored on the mixer's VU meters. The ideal is for the level to peak at around 0dB or just below. However you should note that the dB scale is relative and 0dB on one mixer may not be the same as 0dB on another mixer or audio device. For this reason it is important to understand how each device in the audio chain is referenced, otherwise you may find that your output signal is unexpectedly high or low when it reaches the next point in the chain.
+<p style= "text-align:left;" class="code">  The level of the output signal  <a href=" https://www.mediacollege.com/audio/monitoring/vu.html    " 
+target="_blank"> VU meters  </a> </p>
+
+
+<p class="code" style= "text-align:left;"  > In professional circles, the nominal level of 0dB is considered to be +4 dBu. Consumer-level equipment tends to use -10 dBV.  <br>  </p> 
+<p style= "text-align:left;" class="code"> The best way to check the levels of different equipment is to use audio test tone.  <a href="  https://www.mediacollege.com/audio/tone/   " 
+target="_blank"> TR (jack) Send 0dB tone from the desk and measure it at the next point in the chain. </a> </p>
+
+<p class="code" style= "text-align:left;"  > Many mixers include a number of additional outputs, for example:  <br>  </p> 
+<p class="code" style= "text-align:left;"  > Monitor Feed: A dedicated monitor feed which can be adjusted independently of the master output.  <br>  </p> 
+<p class="code" style= "text-align:left;"  > Headphones: The headphone output may be the same as the monitor feed, or you may be able to select separate sources to listen to.  <br>  </p> 
+<p class="code" style= "text-align:left;"  > Auxiliary Sends: The output(s) of the mixer's auxiliary channels.  <br>  </p> 
+<p class="code" style= "text-align:left;"  > Subgroup Outputs: Some consoles have the option to output each subgroup independently.  <br>  </p> 
+<p class="code" style= "text-align:left;"  > Communication Channels: Some consoles have additional output channels available for communicating with the stage, recording booths, etc.  <br>  </p> 
+
+
+<!-- ID 2 INSERT HERE-->
+
+<h2 class="code"style= "text-align:left;" > Sound craft Mixer basics <br> </h2>
+
+
+<h2 class="code" style= "text-align:left;"> Digital Audio Interfaces <br> </h2>
+<p class="code" style= "text-align:left;"  > Digital Audio interfaces are what allows analog sound to be converted to digital signals that your computer can understand. There are lots of different interfaces and the one in our studios is build right into the Soundcraft mixer. <br>  </p> 
+<p style= "text-align:left;" class="code">  Let's take a look at the  <a href=" https://ehomerecordingstudio.com/best-audio-interfaces/    " 
+target="_blank">  different kinds of audio interfaces (Links to an external site.). </a> </p>
+
+ 
+
+
+
+
+
+
+
+
+
+
+<h2 class="code" style= "text-align:left;" > What Makes Up Music  <br> </h2>
+<p class="code" style= "text-align:left;"  > This week you'll be asked to tell us about your favorite and least favorite songs/music - and provide links to it and describe it.  Describing music can be a challenge! <br>  </p> 
+<p style= "text-align:left;" class="code"> Please go through this amazing web resource   <a href=" https://learningmusic.ableton.com/     " 
+target="_blank"> Learning Music – Ableton.com (Links to an external site.) </a> </p>
+<p class="code" style= "text-align:left;"  > In it you will discover some of the terms musicians use, while experiencing making music yourself. You will learn and get to play with:<br>  </p> 
+<li   li class="code" style= "text-align:left;" ul class="a" li> beats <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> notes and scales <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> chords <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> basslines <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> melodies<br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> song structure <br> </li>
+
+<p style= "text-align:left;" class="code"> Class examples     <a href=" https://learningmusic.ableton.com/song-structure/bury-it.html      " target="_blank"> click the following link. </a> </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 class="code" style= "text-align:left;" > Sampling <br> </h2>
+<p style= "text-align:left;" class="code"> Review of Basics of Sound  <a href="    " target="_blank">  watch this video. </a> </p>
+
+
+
+
+<p style= "text-align:left;" class="code"> Understanding Analog to Digital conversion  <a href=" https://jackschaedler.github.io/circles-sines-signals/sampling.html    " target="_blank">  See how sampling rate matters as frequencies change (Links to an external site.)  </a> </p>
+
+
+
+
+<p style= "text-align:left;" class="code"> Understand sampling rate, bit depth (Links to an external site.)  <a href=" https://www.ethanhein.com/wp/2014/digital-audio-basics/ l    " target="_blank">  and other important concepts with digital audio  </a> </p>
+
+
+<p style= "text-align:left;" class="code"> Understanding Analog to Digital conversion   <a href=" https://jackschaedler.github.io/circles-sines-signals/sampling.html    " target="_blank"> and other important concepts with digital audio  </a> </p>
+
+
+
+
+
+
+
+
+<h2 class="code" style= "text-align:left;"> Nyquist <br> </h2>
+
+<p style= "text-align:left;" class="code"> Hear what Nyquist sounds like (Links to an external site.).  <a href=" https://sites.math.washington.edu/~conroy/sequenceNoise/aliasingExamples.htm    " target="_blank"> more information.  </a> </p>
+
+
+
+
+
+
+<p style= "text-align:left;" class="code"> A visual animated representation of Nyquist (Links to an external site.)  <a href=" https://jackschaedler.github.io/circles-sines-signals/sampling2.html    " target="_blank"> click here for more information. </a> </p>
+
+
+<p style= "text-align:left;" class="code">  Visual representation of Nyquist showing the wagon wheel effect (Links to an external site.) <a href=" https://jackschaedler.github.io/circles-sines-signals/sampling4.html    " target="_blank"> see more information.  </a> </p>
+
+
+
+
+
+<p style= "text-align:left;" class="code">   for more  <a href=" https://jackschaedler.github.io/circles-sines-signals/sampling2.html    " target="_blank"> info. </a> </p>
+
+<p style= "text-align:left;" class="code">  for  <a href=" https://jackschaedler.github.io/circles-sines-signals/sampling4.html      " target="_blank"> Circles Sines and Signals - The Wagon Wheel Effect </a> </p>
+
+
+
+
+<h2 class="code" style= "text-align:left;"> Harmonics <br> </h2>
+<p style= "text-align:left;" class="code">  Harmonics can be well represented with a vibrating string (Links to an external site.). We'll listen to some examples in class. Harmonics and Timbre go hand and hand. They are what makes a violin sound like a violin and not a clarinet, even though they may both be playing the same exact pitch.   <a href=" https://alexanderchen.github.io/harmonics/   " target="_blank">  The tone quality is quite different. </a> </p>
+
+
+<h2 class="code" style= "text-align:left;"> Timbre  <br> </h2>
+
+<p style= "text-align:left;" class="code"> In this example you'll hear a few different waveforms (all at the same pitch) and see the  <a href=" https://jackschaedler.github.io/circles-sines-signals/sound2.html     " target="_blank"> timbre represented when different  </a> </p>
+
+
+
+
+
+<p style= "text-align:left;" class="code"> harmonics are present (Links to an external site.).  <a href=" https://jackschaedler.github.io/circles-sines-signals/sound2.html      " target="_blank"> more info. </a> </p>
+
+
+<p style= "text-align:left;" class="code"> Try making a square (or other) wave (Links to an external site.)  <a href=" https://jackschaedler.github.io/circles-sines-signals/dft_introduction.html    " target="_blank">  to further experiment with timbre! </a> </p>
+
+
+<p style= "text-align:left;" class="code">  see more <a href=" https://jackschaedler.github.io/circles-sines-signals/sound2.html      " target="_blank"> more info. </a> </p>
+
+
+
+<p style= "text-align:left;" class="code">  see more <a href=" https://jackschaedler.github.io/circles-sines-signals/dft_introduction.html      " target="_blank"> more info. </a> </p> 
+
+
+
+
+
+
+
+
+
+
+
+<h2 class="code" style= "text-align:left;"> File Formats <br> </h2>
+<h2 class="code" style= "text-align:left;" >  Understanding WAVE vs MP3 <br> </h2>
+
+<p class="code" style= "text-align:left;"  > Wave  is an uncompressed or lossless format, whereas MP3  is compressed or lossy. Technically .wav is just a container format and can hold various types of compressed or uncompressed audio, but typically you'll see it containing LPCM (Links to an external site.) uncompressed audio (the same as on audio CDs). With .wav files, you are essentially getting a raw bitstream representation of the audio signal in digital form. An analog sound produced in the real world contains essentially an infinite amount of information because it is a wave that is constantly changing (see below). In order to bring these sounds into the digital domain you need to sample the signal at various intervals to make an approximation of the sound. For .wav the audio signal is usually sampled at 44,100 times per second or more, and each sampled value is recorded so the sound wave can be reproduced:  <br>  </p>  
+
+
+
+
+
+
+
+
+
+
+<p class="code" style= "text-align:left;"  > The analog sound wave is sampled at every T interval to make a digital approximation of the original signal. (For digital audio T is usually 1/44,100th of a second or less) <br>  </p> 
+<p class="code" style= "text-align:left;"  > MP3s are compressed in order to squeeze the same audio information into a smaller file size. The .wav format is great for very faithful representations of the analog signal, but as you probably know that's usually at the cost of larger file sizes. Compressed audio (and video in a similar fashion) is designed to reduce the file size while still maintaining a respectable level of fidelity.  <br>  </p> 
+<p class="code" style= "text-align:left;"  > In layman's terms, compression attempts to remove the unnecessary data from the stream and reduce the signal to its most necessary components. With MP3, the compression and encoding algorithms use a model of how we hear to analyze the audio in the frequency domain and remove any unnecessary information. For instance, due to auditory masking (Links to an external site.) if there are two sounds at close frequencies, often we will only hear the louder one if the difference in volume between the two is significant. So for MP3, the lower volume sound could be discarded and the audio would sound essentially the same to our ears. More info on the technical side of MP3 encoding here. (Links to an external site.)  <br>  </p> 
+<p class="code" style= "text-align:left;"  > In practice, both .wav and MP3 have their uses. For production, .wav is the standard because it will almost always be a 100% accurate, bit-for-bit reproduction of the source material. MP3s can be a decent alternative at high enough bitrates. The bitrate is the measure of how many bits per second the MP3 encoding will use, meaning the higher the bitrate, the closer the MP3 will be to the original, uncompressed stream. Bitrate is usually measured in kilobits per second (kbps). I like high audio quality for my digital music collection, so when I have the option I usually encode MP3s at a constant 256 or 320kbps. That is the higher end of what MP3s are capable of, and unfortunately a lot of digital music out there is not encoded that high. When the bitrate comes down, you can usually hear it first in the high frequencies, for example the cymbals from a drum kit will sound off. 160kbps is tolerable, but anything lower than that and you will really start to notice. But again, with a high enough bitrate the differences between MP3 and .wav are barely distinguishable, especially to an untrained listener (most listeners).  <br>  </p> 
+<p class="code" style= "text-align:left;"  > For .wav files we mostly look at bit depth and sample rate or frequency. Bit depth is the number of bits used to encode each sampled value. The sample rate tells how many times per second the audio is sampled. CD (.wav) and MP3 are encoded at 44,100 Hz sample rate (Hertz meaning "cycles per second"). Newer computers and audio hardware/software are now accommodating higher sample rates, including 48kHz or 96kHz. For .wav the bit depth is usually 16-bits or 24-bits on the newer systems. For most purposes, when using .wav, 16-bit and 44.1kHz is sufficient, but if you have the capabilities it's usually worth upgrading to 24-bit, 48kHz. <br>  </p> 
+Some example file sizes for a stereo five minute recording: <br>  </p> 
+<li   li class="code" style= "text-align:left;" ul class="a" li> .wav, 16-bit, 44.1kHz: 50 MB<br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> .wav, 24-bit, 48kHz: 82 MB <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> .wav, 24-bit, 96kHz: 164 MB <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> MP3, 128kbps, 44.1kHz: 4.5 MB <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> MP3, 192kbps, 44.1kHz: 7 MB <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> MP3, 320kbps, 44.1kHz: 11 MB <br> </li>
+<p class="code" style= "text-align:left;"  >  There is also a variable bitrate option for MP3 encoding, which should offer slightly smaller file sizes for the same quality. It uses an encoding scheme that changes (varies) the bitrate for different portions of the song depending on complexity and how many samples would be needed to recreate a given section faithfully. <br>  </p> 
+
+
+
+
+
+<h2 class="code" style= "text-align:left;"> Recording Environments <br> </h2>
+<p class="code" style= "text-align:left;"  >  This video has an excellent demonstration of different kinds of recording spaces, and how to make the most of the space you are in. It is about 14-minutes long and I want you to think about the kinds of places you have already recorded in this class, and the kinds of places you think you might be recording in the future. <br>  </p> 
+
+
+
+
+
+<p style= "text-align:left;" class="code"> watch <a href=" https://www.youtube.com/watch?v=tm2BgO1VaRY      " target="_blank"> this video. </a> </p>
+
+
+
+<p class="code" style= "text-align:left;"  >  This is a very good "general purpose" and very sturdy microphone (which is why they are in our portable kits!). Dynamic microphones, thus, are microphones that convert sound into an electrical signal by means of electromagnetism. We'll learn more about these later. <br>  </p> 
+<p class="code" style= "text-align:left;"  >  These microphones have a cardoid pickup pattern as show below:<br>  </p> 
+
+
+<p class="code" style= "text-align:left;"  >  This pattern should be used to capture a single source situated in front of the microphone, especially when ambient sounds should not be included in the signal. <br>  </p> 
+<p class="code" style= "text-align:left;"  >  You can use either one or two of these as inputs to the Tascam. The XLR Mic In plugs are on the bottom of the Tascam. <br>  </p> 
+<h2 class="code" style= "text-align:left;"> Headphones <br> </h2>
+
+
+<p class="code" style= "text-align:left;"  >  The Audio Technica headphones should be stored in a bag and ours have an 1/8" plug on them so you can plug them directly into the Tascam headphone jack on the left side of the device. No adapter is need ed. <p class="code" style= "text-align:left;"  > There is a headphone output level (volume) there as well. <br>  </p> 
+
+
+ 
+<h2 class="code" style= "text-align:left;"> Tascam DR-100 Portable Digital Recorder <br> </h2>
+
+
+
+<p class="code" style= "text-align:left;"  > You will use the External microphone as one part of your recording. You will also use the mics built-in to the Tascam. These two mics are located at the top of the unit and there are two different pickup patterns you should try. <br>  </p> 
+<p class="code" style= "text-align:left;"  > Use the switch on the top of the unit and change the input between:<br>  </p>  
+<li   li class="code" style= "text-align:left;" ul class="a" li>  XLR (external mics) <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li>  OMNI (uses the internal mics in an omni-directional pickup pattern) <br> </li>
+
+<p class="code" style= "text-align:left;"  >  Audio will be picked up from every direction.<br>  </p> 
+<p class="code" style= "text-align:left;"  > UNI (uses the internal mics in a uni-directional pickup pattern) <br>  </p> 
+
+<p class="code" style= "text-align:left;"  > Audio will be picked up mostly from one direction. The Tascam uses a Cardoid pattern, much like the SM58s.<br>  </p> 
+ 
+<h2 class="code" style= "text-align:left;" >  More on the Tascam<br> </h2>
+<p class="code" style= "text-align:left;"  > Here's a nice 3-minute overview video about our Tascam DR100 portable recorders.<br>  </p> 
+
+
+ <p style= "text-align:left;" class="code">   watch <a href=" https://www.youtube.com/watch?v=0b0W0HFjH2o&t=1s      " target="_blank"> this video. </a> </p>
+
+
+
+
+
+ <p style= "text-align:left;" class="code">  I've selected about 4-minutes of this Getting Started video to help you understand some of the menu settings on the Tascam.  <a href=" https://www.youtube.com/watch?v=7rXzJxwNQ3s   " target="_blank">  Please take a look. </a> </p>
+
+
+ <p style= "text-align:left;" class="code">  And here's a short 4-min video about recording levels. It talks a bit about oral histories, but this is valuable information for any recording situation. <a href=" https://www.youtube.com/watch?v=6UH6CXc6dWI    " target="_blank">  Please take a look. </a> </p>
+
+
+<p class="code" style= "text-align:left;"  >  Read the Tascam Owners Manual (Links to an external site.) (PDF)
+Tascam Handout.pdf <br>  </p> 
+
+
+
+
+
+<li   li class="code" style= "text-align:left;" ul class="a" li>  About transducers and different kinds of microphones including:<br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li>  dynamic <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li>  condenser <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li>  Microphone pick-up patterns  <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li>  How to read a microphone spec sheet <br> </li>
+
+
+
+
+
+
+<p style= "text-align:left;" class="code"> Watch this 1-minute video about transducers, the key component that makes a microphone work! <a href=" https://www.youtube.com/watch?v=1lqnyEemWeQ&t=1s     " target="_blank">  Please take a look. </a> </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+<h2 class="code" style= "text-align:left;">  Field Recording & Editing <br> </h2>
+<p style= "text-align:left;" class="code"> Let's start with a bit of a review. We've talked about this before, but it's crucial you understand how.   <a href=" https://ehomerecordingstudio.com/digital-audio/     " target="_blank">  Analog to Digital Audio works… </a> </p>
+
+
+
+
+ 
+<p class="code" style= "text-align:left;"  > Watch this 4-minute video from Shure about how a microphone works. (5:00) <br>  </p>
+ 
+<p class="code" style= "text-align:left;"  > And here's a short (8:00) video about what's inside a dynamic microphone.<br>  </p>
+ 
+<p style= "text-align:left;" class="code"> In the CSM studios, you'll find we use a lot of Shure SM58's. These are often considered the "workhorses" of the audio world. Take a look at the  <a href=" https://www.shure.com/en-US/docs/guide/SM58     " target="_blank"> 
+
+
+Technical Specifications (Links to an external site.) and see if you can figure out why they are a staple in our studios. </a> </p>
+ 
+
+
+ 
+ 
+<p class="code" style= "text-align:left;"  > Below are two very nice webpages that let you hear good recordings and compare them with not so good recordings. This is a valuable lesson, one that you'll no doubt need to revisit many times over your audio career. I know I sure have! <br>  </p>
+<p style= "text-align:left;" class="code">  Hear different types of audio recording problems  (Links to an external site.)from NPR's ear training guide. <a href=" https://training.npr.org/2017/01/31/the-ear-training-guide-for-audio-producers/      " target="_blank"> 
+And get some tips for Better Podcast Audio (Links to an external site.) (from Sure) </a> </p>
+ 
+<h2 class="code" style= "text-align:left;" >  Crafting a story <br> </h2>
+There's so much more to a compelling audio story than just a good interview. What can you add in to help convey meaning? What makes a good story anyhow?
+<p style= "text-align:left;" class="code"> Get some ideas about story structure (Links to an external site.) from the pros. And then, figure out what sort of "extra" scripting you'll want to think about including to "round out" your interviews. <a href=" https://training.npr.org/2016/03/02/understanding-story-structure-in-4-drawings/     " target="_blank"> more info  </a> </p>
+
+
+
+
+<p style= "text-align:left;" class="code"> Here's some great info about how to craft a script (Links to an external site.).<a href=" https://training.npr.org/2015/03/09/what-does-a-radio-script-look-like/    " target="_blank"> more info  </a> </p>
+
+
+
+
+
+
+ 
+<h2 class="code" style= "text-align:left;">  How to Craft an Interview <br> </h2>
+<p style= "text-align:left;" class="code">  This is a 1-hour recording of a talk by David Kestenbaum about how to help your interviewee get to the point of their story! Explaining the World in 4-minutes  <a href=" https://www.thirdcoastfestival.org/explore/feature/explaining-the-world-in-four-minutes     " target="_blank">  (Links to an external site.). Worth a listen -- even if just for the first 10-minutes (then you'll be hooked). </a> </p>
+
+
+
+
+
+
+
+
+
+
+<p style= "text-align:left;" class="code"> Or try this one from Ira Glass <a href=" https://www.youtube.com/watch?v=KxDwieKpawg     " target="_blank"> watch this video </a> </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 class="code" style= "text-align:left;">  Editing in Audacity <br> </h2>
+All the Lab computers and each Studio has Audacity. We'll be using Audacity to get the basics down before we move on to using Logic Pro X. Audacity has the added benefit of being free, so if you'd like to get your own copy of Audacity to use on your computer at home, you can just download Audacity for free (Links to an external site.)!
+ 
+I have made 7 short video tutorials about how to use Audacity. The playlist is included below. Video topics include:
+<li   li class="code" style= "text-align:left;" ul class="a" li>  tools/interface overview <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li>  how to record a test session <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li>  using track headers <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li>  editing audio <br> </li> 
+<li   li class="code" style= "text-align:left;" ul class="a" li>  adding music <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li>  merging tracks <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li>  exporting WAVE and MP3 files <br> </li>
+
+
+
+
+
+<p style= "text-align:left;" class="code"> The Audacity Manual (Links to an external site.) is available for your further reference. <a href=" https://support.audacityteam.org/     " target="_blank"> more info. </a> </p>
+ 
+
+
+
+
+<h2 class="code" style= "text-align:left;">  Audio Editing Tips <br> </h2>
+<h2 class="code" style= "text-align:left;" >  Improve your listening <br> </h2>
+<p style= "text-align:left;" class="code">  So much about edited audio is about training your ears to really hear "into" a recording. The first step is focused listening.   <a href=" https://training.npr.org/2017/01/30/quiz-do-you-have-the-ears-of-an-audio-producer/    " target="_blank">   Try out this (not-graded) Quiz from NPR to test your ears!</a> </p>
+
+
+<p style= "text-align:left;" class="code"> Do you have the ears of an audio producer?   <a href=" https://training.npr.org/2017/01/30/quiz-do-you-have-the-ears-of-an-audio-producer/    " target="_blank">  (Links to an external site.) </a> </p>
+ 
+
+
+<h2 class="code" style= "text-align:left;" >  Locate Editing problems <br> </h2>
+<p style= "text-align:left;" class="code"> The best audio edit is the one you don't hear. With video editing, people can see where you've made edits, but with audio, you can really craft a story and no one has to know where the editing took place. Let's see if you can hear the difference!   <a href=" https://training.npr.org/2017/01/31/the-ear-training-guide-for-audio-producers/#audibleedits    " target="_blank"> NPR Editing Tips (Links to an external site.) </a> </p>
+
+
+
+<p style= "text-align:left;" class="code"> NPR Ear Training Guide for Audio Producers   <a href=" https://training.npr.org/2017/01/31/the-ear-training-guide-for-audio-producers/#editing     " target="_blank">  (Links to an external site.) </a> </p>
+ 
+
+
+
+<h2 class="code" style= "text-align:left;" >  Using Sound Design to enhance your story <br> </h2>
+
+<p style= "text-align:left;" class="code"> It can be tricky to add in the extra sounds and music that you want to use to help create your story. Here is a great listen that walks you through Sound Design basics from Transom  <a href=" https://transom.org/2017/sound-design-basics/     " target="_blank">  (Links to an external site.) </a> </p>
+ 
+
+
+
+<h2 class="code" style= "text-align:left;" >  Using Music wisely <br> </h2>
+
+<p style= "text-align:left;" class="code">  This American Life gives you some good guidelines for using music in your audio (Links to an external site.) story editing. <a href=" https://transom.org/2015/using-music-jonathan-menjivar-for-this-american-life/     " target="_blank">  (Links to an external site.) </a> </p>
+ 
+
+
+
+
+
+
+
+
+
+<div class="w3-row-padding w3-padding-16 w3-center" id="microphones">
+
+
+<h2 class="code" >   Differences between Microphones <br> </h2>
+
+
+
+<h2 class="code" style= "text-align:left;">  Dynamic microphones <br> </h2>
+<p class="code" style= "text-align:left;"  > These are the most common general-purpose microphones. They do not require power to operate. If you have a microphone that is used for live performance, it is probably a dynamic mic.<br>  </p>
+
+
+<img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGknhsExn5MRWFVyPtrAo9yOy70yfDVlE0nAHuNZrm4fqzQVBOldIlY7TYQCd2QIRnbetde3Pm88NCOPM8jBGBQDnAXAqMhJQ8eRQyA_sTIhTZqnbErnBi0ilXuzriLTTjfxDKYbm8Ne7qi2oAvANv0IMRNux_fcbeWIHl-1i5GqaRs4SCvxPKuRSc34w/s3840/i24.PNG "
+style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+
+
+
+<p class="code" style= "text-align:left;"  >  They have the advantage that they can withstand very high sound pressure levels (high volume) without damage or distortion, and tend to provide a richer, more intense sound than other types. Traditionally, these mics did not provide as good a response on the highest frequencies (particularly above 10 kHz), but some recent models have come out that attempt to overcome this limitation. <br>  </p>
+<p class="code" style= "text-align:left;"  >  In the studio, dynamic mics are often used for high sound pressure level instruments such as drums, guitar amps and brass instruments. Models that are often used in recording include the Shure SM57 and the Sennheiser MD421. <br>  </p>
+<h2 class="code" style= "text-align:left;">  Condenser microphones <br> </h2>
+
+
+<img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjknBEHM2jAD7xd2xPzMHqWFwVPfBgFa6BGd31EokpuvnxI9mxyty4kkNS1Fy22T3j-Y_EKHYlq2ejkRS1SCWenFHLm3Xn0agO2mewrh4e6-ijrXos9DXmsRamCCmyJyNfWkZJlPInEfZAT_ssydHxHHZ983Kg2qbYASOqXw8jxGhh8c8ffwBrvS5UUwi0/s3840/i23.PNG "
+style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+
+
+<p class="code" style= "text-align:left;"  >  These microphones are often the most expensive microphones a studio owns. They require power to operate, either from a battery or phantom power, provided using the mic cable from an external mixer or pre-amp. 
+  These mics have a built-in pre-amplifier that uses the power. Some vintage microphones have a tube amplifier, and are referred to as tube condensers.  <br>  </p> 
+
+
+  <img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNKar0TrNeaV6OpB84mB1OeVBY0pl3Bt-rFwBEDW5tsAshlbIkBse16pQS_KN6ov2BURLMx5-HctbpDX9JIuEKZs7UepofUYjaJl8200zLqaJ6DZgFKRBehEzYehmcLL_Ih0qc0ZTeLEDRk2ljptu-FC9CNrUJ3h1_Tb86Oyx6mtytzn8g-raW-o0b3LE/s3840/i22.PNG "
+style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+
+
+<p class="code" style= "text-align:left;"  >  While they cannot withstand the very high sound pressure levels that dynamic mics can, they provide a flatter frequency response, and often the best response at the highest frequencies. Not as good at conveying intensity, they are much better at providing a balanced accurate sound.  <br>  </p>
+<p class="code" style= "text-align:left;"  >  Condenser mics come with a variety of sizes of transducers. They are usually grouped into smaller format condensers, which often are long cylinders about the size of a nickel coin in diameter, and larger format condensers, the transducers of which are often about an inch in diameter or slightly larger. <br>  </p>
+<p class="code" style= "text-align:left;"  >  In the studio, condenser mics are often used for instruments with a wide frequency range, such as an acoustic piano, acoustic guitar, voice, violin, cymbals, or an entire band or chorus. On louder instruments they do not use close miking with condensers.
+  
+  Models that are often used in recording include the Shure SM81 (small format), AKG C414 (large format) and Neumann U87 (large format).  <br>  </p>
+
+<h2 class="code" style= "text-align:left;" >  Ribbon microphones <br> </h2>
+
+<p class="code" style= "text-align:left;"  >  Ribbon microphones are often used as an alternative to condenser microphones. Some modern ribbon microphones do not require power, and some do. The first ribbon microphones, developed at RCA in the 1930s, 
+  required no power, were quite fragile and could be destroyed by just blowing air through them. Modern ribbon mics are much more resilient, and can be used with the same level of caution as condenser mics.  <br>  </p>
+
+
+  <img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQnznYOE8__CGFRTEwvufm9at35XJEeueMbyZpivPCsgzZ3aNFur_JBO7r4Hubr8UBxKctHMlb0CCe4P_uMzz-C-RgYio5Fg-7R3dGBgIy4FIaU2r9dcGWeKQyfqE96Hy7LF5S6j4gGlJzLFDpftnV0zR2ybaWHW87z9IWcmIcEj6d-neF0zLE75y0HdE/s3840/i21.PNG "
+style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+
+
+
+
+<p class="code" style= "text-align:left;"  >  Ribbon microphones provide a warmer sound than a condenser mic, with a less brittle top end. Some vocalists (including Paul McCartney) prefer them to condenser mics. In the studio they are used on vocals, violins, and even drums. Popular models for recording include the Royer R121 and the AEA R84.  <br>  </p>
+
+<p class="code" style= "text-align:left;"  >  Difference between dynamic and condenser mics  <br>  </p>
+
+
+
+
+<p style= "text-align:left;" class="code">  watch this video <a href=" https://www.youtube.com/watch?v=nPjUB-KQ3_Q&t=1s     " target="_blank">  (Links to an external site.) </a> </p>
+ 
+
+
+
+
+
+
+
+
+<p style= "text-align:left;" class="code"> Polar pickup patterns: <a href=" https://www.youtube.com/watch?v=5PE1j9sGsIc&t=3s      " target="_blank">  Pick sound 360 degree circle </a> </p>
+
+
+
+
+
+<h2 class="code" style= "text-align:left;" >  Mic Techniques & Considerations <br> </h2>
+<p style= "text-align:left;" class="code"> Microphone setup  <a href=" https://www.youtube.com/watch?v=Pubkob52o78      " target="_blank">  watch this video </a> </p>
+
+
+<p style= "text-align:left;" class="code"> Common mic'ing mistakes  <a href=" https://www.youtube.com/watch?v=-dJ8OsOvhnc       " target="_blank">  watch this video </a> </p>
+
+
+<p style= "text-align:left;" class="code"> Phase cancellation  <a href=" https://www.youtube.com/watch?v=_N0ER4A73QE&t=1s        " target="_blank">  watch this video </a> </p>
+
+
+
+
+<h2 class="code" style= "text-align:left;">  Mic Tests <br> </h2>
+<p class="code" style= "text-align:left;"  > We will focus on the following mics this week: <br>  </p>
+
+
+
+
+<li   li class="code" style= "text-align:left;" ul class="a" li>   Sennheiser MD421-II <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li>  Type: Dynamic (large diaphragm) <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li>  Polar Pattern: Cardoid <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li>  Uses: Good for instruments <br> </li>
+
+
+
+
+
+
+<p style= "text-align:left;" class="code"> Spec Sheet: Sennheiser (Links to an external site.) <a href=" https://www.sennheiser.com/en-us/catalog/products/microphones/md-421-ii/md-421-ii-000984       " target="_blank">  info. </a> </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li   li class="code" style= "text-align:left;" ul class="a" li> Audix OM-3 <br> </li>
+
+
+<li   li class="code" style= "text-align:left;" ul class="a" li> Type: Dynamic <br> </li>
+
+
+<li   li class="code" style= "text-align:left;" ul class="a" li> Polar Pattern: Hypercardoid <br> </li>
+
+
+
+
+
+
+
+
+
+
+<p style= "text-align:left;" class="code"> Spec Sheet:  <a href=" https://audixusa.com/     " target="_blank"> Audix (Links to an external site.) </a> </p>
+
+
+
+
+
+
+<li   li class="code" style= "text-align:left;" ul class="a" li> AKG 400 <br> </li>
+                                    
+
+
+
+
+
+
+
+
+
+
+                      
+<li   li class="code" style= "text-align:left;" ul class="a" li> Type: Condenser, large diaphragm<br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> Polar Pattern: Selectable (cardoid, omni, figure 8) <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> Uses: Vocals and Acoustic Guitar <br> </li>
+
+
+
+
+
+<li   li class="code" style= "text-align:left;" ul class="a" li> Audio Technica AT897  <br> </li>
+
+<li   li class="code" style= "text-align:left;" ul class="a" li> Polar Pattern: Shotgun  <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> Uses: Field recording, excellent off-axis rejection of sound  <br> </li>
+
+
+
+
+
+
+
+
+
+
+
+<li   li class="code" style= "text-align:left;" ul class="a" li> AKG C-1000S <br> </li>
+
+<li   li class="code" style= "text-align:left;" ul class="a" li> Type: Condenser (small diaghrapm) <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> Polar Pattern: Cardoid <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> Uses: Studio Vocals and Acoustic Instruments <br> </li>
+
+
+
+
+<p style= "text-align:left;" class="code">  Spec sheet:   <a href=" https://www.akg.com/microphones/condenser-microphones/C1000_S.html      " target="_blank"> AKG C1000 (Links to an external site.) </a> </p>
+
+
+
+
+
+
+<li   li class="code" style= "text-align:left;" ul class="a" li> Audio Technica AT8010 <br> </li>
+
+<li   li class="code" style= "text-align:left;" ul class="a" li> Type: Condenser <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> Polar Pattern: Omnidirectional<br> </li>
+
+
+
+<li   li class="code" style= "text-align:left;" ul class="a" li> Rode NT3 <br> </li>
+
+<li   li class="code" style= "text-align:left;" ul class="a" li> Type: Condenser <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> Polar Pattern: Cardoid<br> </li> 
+<li   li class="code" style= "text-align:left;" ul class="a" li> Uses: Vocals, piano, acoustic guitar <br> </li>
+
+
+
+
+
+<p style= "text-align:left;" class="code">  Spect Sheet:   <a href=" https://rode.com/en/microphones/studio-condenser/nt3      " target="_blank"> Rode NT3 (Links to an external site.)condenser microphones (Links to an external site.)
+ </a> </p>
+
+
+
+
+
+<li   li class="code" style= "text-align:left;" ul class="a" li>  Neumann TLM103 <br> </li>
+
+<li   li class="code" style= "text-align:left;" ul class="a" li> Type: Condenser (large diaphragm, side <li   li class="code" style= "text-align:left;" ul class="a" li> addressed, talent see's logo) <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> Polar Pattern: Cardoid <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> Uses: Vocals and acoustic guitar <br> </li>
+
+<p style= "text-align:left;" class="code"> Spec  Sheet:   <a href=" https://www.neumann.com/en-us?lang=en&id=current_microphones&cid=tlm103_description      " target="_blank"> Neumann (Links to an external site.)  </a> </p>
+
+
+
+
+
+
+
+<h2 class="code" style= "text-align:left;" >  Mic'ing techniques for vocals <br> </h2>
+<p style= "text-align:left;" class="code"> Voiceover recording microphone placement (11:22)  <a href=" https://www.youtube.com/watch?v=l1DHBGThJPI     " target="_blank"> watch this video </a> </p>
+
+<p style= "text-align:left;" class="code"> Proper Voiceover Microphone Technique (6:00)  <a href=" https://www.youtube.com/watch?v=muFk-MjUckA       " target="_blank"> watch this video </a> </p>
+
+<h2 class="code" style= "text-align:left;"> Mic Stands <br> </h2>
+<p style= "text-align:left;" class="code">  This site has a nice, concise explanation of the different kinds of mic stands, prices, and when to use each: <a href=" https://ehomerecordingstudio.com/microphone-stands/    " target="_blank">  More on microphone stands </a> </p>
+
+
+
+
+
+
+<h2 class="code" style= "text-align:left;"> Microphone Setups – How To Find The Sweet Spot <br> </h2>
+<p style= "text-align:left;" class="code"> microphone <a href=" https://www.voices.com/blog/microphone-sweetspot/       " target="_blank"> setups </a> </p>
+
+
+
+
+
+
+
+
+<h2 class="code" style= "text-align:left;" > Understanding Dispersion Specifications <br> </h2>
+<p class="code" style= "text-align:left;"  > Many pro-audio manufacturers publish dispersion specifications. These are commonly quoted as xx degrees. For example: “90 degrees”.  <br>  </p>
+<p class="code" style= "text-align:left;"  >  Correctly, these dispersion figures should be qualified by both the frequency and dB difference from the on axis SPL. For example: “90 degrees -3dB @ 1kHz”. That would mean that at 1kHz the speaker covers an angle of 90 degrees with a nominal difference from the on axis SPL of 3dB. For what it’s worth, the accepted pro-audio “standard” is to quote dispersion figures at -6dB and 1kHz.  <br>  </p>
+<p class="code" style= "text-align:left;"  >  One important thing to understand is what the angular coverage refers to. This is a source of potential confusion for those reading and interpreting specifications.  <br>  </p>
+<p class="code" style= "text-align:left;"  >  A dispersion figure of 90 degrees means 45 degrees either side of “on axis”. Likewise a dispersion figure of 80 degrees would mean 40 degrees either side of “on axis”.  So if you saw a published specification of 90 degrees with no frequency or dB qualifier, you’d assume this means that if you measured the speaker at 45 degrees off axis you’d see that at 1kHz the response is -6dB down.  <br>  </p>
+<p class="code" style= "text-align:left;"  >  At Acoustic Frontiers we don’t think this is a very useful standard for home theater design or acoustic design for two reasons. We think -3dB at 4kHz is a better specification for our purposes:  <br>  </p>
+<li   li class="code" style= "text-align:left;" ul class="a" li>  Firstly, -6dB is a very significant perceptual change in SPL. We prefer -3dB, which is around a 20% perceived loudness difference. <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li>  Secondly, 1kHz is not a high enough frequency to cover the main energy output of popular musical instruments or the key frequencies that contribute to localization. 4kHz is a better frequency for this purpose. <br> </li>
+
+
+
+
+
+
+
+
+
+
+<h2 class="code" style= "text-align:left;">  Compression, Limiting, Expanding <br> </h2>
+<p class="code" style= "text-align:left;"  > These three things: Compression, Limiting and Expanding all have to do with finessing the dynamic range of your mix. <br>  </p>
+<p class="code" style= "text-align:left;"  > I like to think of Limiting as the harshest option -- where you simply cut anything above a certain loudness. If you want to be a little more forgiving, you can use a compressor to more subtly adjust the dynamic range. Expanding is pretty much the opposite of compressing: Expanders increase the difference in loudness between quieter and louder sections of audio making quiet sounds quieter and loud sounds louder. <br>  </p>
+<p class="code" style= "text-align:left;"  > A compressor/limiter/expander is a circuit designed to allow you to change the range between the loudest and quietest parts of a signal. <br>  </p>
+<p class="code" style= "text-align:left;"  > All three have similar adjustments for you to consider when using them in your mix: <br>  </p>
+<h2 class="code" style= "text-align:left;">  Threshold <br> </h2>
+
+
+<p class="code" style= "text-align:left;"  > Imagine the compressor as a sort of loudness enforcer who says, “As long as the level stays below this point, it’s within the rules and I won’t touch it. But if it crosses this line, I’m going to turn it down.” The threshold control is how we tell our compressor precisely where to draw this boundary. Obviously, this needs to be set differently depending on the input signal. If set too high, the entire signal will remain unaffected below the threshold. If set too low, undesired over-compression and distortion can occur.  <br>  </p>
+
+
+<h2 class="code" style= "text-align:left;">  Ratio <br> </h2>
+<p class="code" style= "text-align:left;"  > The ratio determines, proportionally, how much the signal gets turned down once it crosses the threshold. A 4:1 ratio setting tells the enforcer, “If this signal tries to go 4 dB over the line, you only let it go 1 dB.” A signal 8 dB over the threshold would only be allowed to go 2 dB above, and so on and so forth.  <br>  </p>
+
+
+<li   li class="code" style= "text-align:left;" ul class="a" li>  A 1:1 ratio represents no compression at all. <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li>  A very high ratio of 100:1 is like building a brick wall right at the threshold. Nothing is getting past that line. This makes our compressor act as a limiter. <br> </li>
+<h2 class="code" style= "text-align:left;">  Knee <br> </h2>
+<p class="code" style= "text-align:left;"  > A less-common control is knee, which allows you to dial in a variable ratio that compresses harder the further you pass the threshold. A “soft” knee is like an enforcer who shows some leniency to misdemeanor-level offenders who only put a toe over the line. <br>  </p>
+
+
+<h2 class="code" style= "text-align:left;"> Attack <br> </h2>
+<p class="code" style= "text-align:left;"  > This control determines how quickly or lazily our automatic volume control turns itself down once the threshold is crossed. Faster attack times ask the compressor to turn the volume down very quickly, while slower attack times tell it to respond more gradually.  <br>  </p>
+
+
+<p class="code" style= "text-align:left;"  > Some compressor plugins have a “look-ahead” function, which turns our enforcer into a psychic that can see into the future and anticipate the signal’s moves, allowing instantaneous attack times not possible in the analog domain.  <br>  </p>
+
+
+<h2 class="code" style= "text-align:left;"> Release <br> </h2>
+<p class="code" style= "text-align:left;"  > The release, or recovery time, determines the rate at which our automatic volume control turns itself back up once the signal falls back below the threshold. Set at a fast extreme, our enforcer lets up on its pushback rather suddenly as soon as the signal is back in bounds.  <br>  </p>
+
+
+ 
+
+<h2 class="code" style= "text-align:left;"> Reverb, Phasing, Flanging, Chorus <br> </h2>
+<h2 class="code" style= "text-align:left;">  Reverb <br> </h2>
+<p style= "text-align:left;" class="code"> microphone <a href=" https://www.voices.com/blog/microphone-sweetspot/       " target="_blank"> setups </a> </p>
+
+
+<p class="code" style= "text-align:left;"  > Reverberation is important because it gives a sense of space. Reverb is about adding the characteristics of an acoustic environment, either by creating simple echoes or by simulating more complex patterns of sonic reflections. <br>  </p>
+<p style= "text-align:left;" class="code"> Check out the following articles that explain different kinds of reverb (with audio examples) <a href=" https://flypaper.soundfly.com/produce/artificial-space-place-reverb-tech-primer/       " target="_blank">
+Creating Artificial Space with Reverb (Links to an external site.) </a> </p>
+
+
+
+<p style= "text-align:left;" class="code">  Reverb Explained  <a href=" https://splice.com/blog/effects-101-reverb-explained/       " target="_blank">
+ (Links to an external site.) </a> </p>
+
+
+
+
+
+<h2 class="code" style= "text-align:left;">  Phasing <br> </h2>
+<p class="code" style= "text-align:left;"  > Phase-shifting, AKA phasing, is an audio effect which takes advantage of the way sound waves interact with each other when they are out of phase. By splitting an audio signal into two signals and changing the relative phasing between them, a variety of interesting sweeping effects can be created. <br>  </p>
+
+
+<h2 class="code" style= "text-align:left;">  Flanging <br> </h2>
+
+<p class="code" style= "text-align:left;"  >  Flanging is an audio process that combines two copies of the same signal , with the second delayed slightly, to produce a swirling effect. The process originated before digital effect boxes and computer editing were available. The effect, invented in the early 1950s by Les Paul and later used by artists such as Jimi Hendrix and The Beatles, was originally created using two tape recorders. <br>  </p>
+<p style= "text-align:left;" class="code"> Listen to an example: <a href=" https://www.youtube.com/watch?v=NAqQvs_WXs8        " target="_blank">
+ (Links to an external site.) </a> </p>
+
+
+
+
+<h2 class="code" style= "text-align:left;">  Chorus <br> </h2>
+
+ <p class="code" style= "text-align:left;"  > The chorus effect has the longest delay of all the modulation effects, and is commonly used for doubling vocals or instruments. Chorus works by adding multiple short delays to the signal, but rather than repeating the same delay, each delay is "variable length" (the speed and length of the delay changes). This adds the randomness required for the chorus sound. Varying the delay time also varies the pitch slightly, further adding to the "multiple sources" illusion. <br>  </p>
+<p style= "text-align:left;" class="code"> Here's an audio example:  <a href=" https://www.youtube.com/watch?v=zmN7fK3fKUE&t=5s         " target="_blank">
+ (Links to an external site.) </a> </p>
+
+
+
+
+<p style= "text-align:left;" class="code">  How to add Flanger and Phaser effects in Logic Pro  <a href=" https://www.youtube.com/watch?v=ktVQaJzxG8I         " target="_blank">
+ (Links to an external site.) </a> </p>
+
+
+
+
+<h2 class="code" style= "text-align:left;"> Distortion & Feedback <br> </h2>
+<p class="code" style= "text-align:left;"  > Typically, distortion and feedback are two things you want to avoid when processing your audio.  <br>  </p>
+ 
+<h2 class="code" style= "text-align:left;"> Distortion <br> </h2>
+
+<p style= "text-align:left;" class="code">  Unwanted distortion is caused by a signal which is "too strong". If an audio signal level is too high for a particular component to cope with, then parts of the signal will be lost. <a href=" https://www.mediacollege.com/audio/howto/distortion.html          " target="_blank">
+This results in the rasping distorted sound. </a> </p>
+
+
+
+
+
+<h2 class="code" style= "text-align:left;"> Feedback <br> </h2>
+
+<p class="code" style= "text-align:left;"  > Audio feedback is the ringing noise (often described as squealing, screeching, etc) sometimes present in sound systems. It is caused by a "looped signal", that is, a signal which travels in a continuous loop. In technical terms,
+   feedback occurs when the gain in the signal loop reaches "unity" (0dB gain).  <br>  </p>
+
+<p class="code" style= "text-align:left;"  > One of the most common feedback situations is shown in the diagram below - a microphone feeds a signal into a sound system, which then amplifies and outputs the signal from a speaker, which is picked up again by the microphone. <br>  </p>
+
+
+
+
+
+<img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEip-Kzn-CRIq0nl88WZc3q3VhCTbgZJiRPj6zcxxgHnmn2w-gV9hyJwQcemNF02w9PnEeiRyKGuYrVY4ca-1Tg6J-JUEmeEx00JKvrkvr4c9I4jMhFk_373K9r2FjZzROU9WgmcCt2iPq7u5tYeOEl7_IAMtIdMTXx24SbNbE6PVFk2zPU5FRCKgTVWSZc/s3840/i12.PNG "
+style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+
+ 
+
+<p style= "text-align:left;" class="code"> This said -- sometimes simulated feedback is added to enhance a sound:  <a href=" https://www.youtube.com/watch?v=LaMEdWHiLno          " target="_blank">  (Links to an external site.) </a> </p>
+
+
+
+
+<h2 class="code" style= "text-align:left;">  Recording with Multiple Mics <br> </h2>
+
+<p style= "text-align:left;" class="code">  Phase between mics  <a href=" https://ehomerecordingstudio.com/stereo-recording/          " target="_blank">  (Links to an external site.) </a> </p>
+
+
+
+
+
+
+
+
+
+<h2 class="code" style= "text-align:left;"> Coincident pairs <br> </h2>
+
+<p class="code" style= "text-align:left;"  > In this method (also called crossed pairs and sometimes called the X-Y method, although X-Y is often used to refer to a specific version of coincident pairs) a pair of microphones 
+  are set up in such a way that their capsules are almost touching or one is directly above the other and angled apart. In other words the capsules are coincident. (The microphone should not touch one another as 
+  this could introduce mechanical noise.) The biggest advantage to this technique is that since the capsules are at the same point, there is no time of arrival differences between the left and right mikes and, 
+  therefore, no phase cancellation. This makes the setup mono-compatible. The main disadvantage is that the stereo image is rather narrow, depending solely on differences in level to produce the stereo field.  <br>  </p>
+
+
+
+  <img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2add9eFfY-cP8hZAa20yRtv7_6yAHYZwhmx6su-p5R7a8m6oOzveyVATMV8FWFyvnyAI4fi5_L2eXBRa6VFxgEQQs8afryGp12pkijG5a5TJ9PDEwuwS2jCgemY-5BNeEJPnQ6O1FA0fQCgvl1_YSK6KdIAu7mdxatBNDj-yy6EDx5iFVHm4rwnNsU0c/s3840/i11.PNG  "
+  style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+
+
+
+<p class="code" style= "text-align:left;"  > The X-Y technique uses two cardiod microphones in a coincident configuration angled typically at 90 degrees apart (45 degrees to either side of a center line that faces the sound source).  <br>  </p>
+
+
+
+<img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgN7WXkKO_M7m6HwwqpJzoRDL_Rj5ZQYk8jcS8f61tM_0Iy17rl-0KtgLYJbKvZE_4GJNz0A689Q_nHd4Mj_9NAzNA_xJCxY33IrbfcRluREyEeO695C3X9I9WzTtWa9awueIhy2F0gPfePR3js3hGXZIPqyE6SHiE9I68MYV8EFUAp4wR-kSO2Gl30ANI/s3840/i10.PNG "
+style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+
+
+<p class="code" style= "text-align:left;"  > The mid-side technique (also called middle-side, mono-stereo, or abbreviated as M-S or M/S). It combines one microphone facing forward at the center of the sound source (the “mid” microphone)
+   with a microphone that has a bi-directional (figure-eight) pattern facing left or right (the “side”). The mid microphone can be just about any pattern, but a cardioid pattern seems to be the most common. Some people say matching 
+   the two microphones is not necessary, but others say they should be matched as closely as possible, especially for larger sources. A good way to match them is to choose two multi-pattern large diaphragm condenser microphones, 
+   with the mid one set to omni or cardioid and the side one set to a figure-eight pattern. Those using unmatched microphones report good results using everything from omni to supercardioid patterns for the mid microphone 
+   and even using a mix of condenser and ribbon microphones for the side microphone.  <br>  </p>
+
+
+<p class="code" style= "text-align:left;"  > Unlike most of the other stereo miking techniques, in which the signal from the two microphones are panned hard left and hard right, 
+  this technique requires some signal manipulation to develop the stereo signal. The signal from the mid microphone provides a very good mono signal. Since the two lobes of the 
+  figure-eight microphones are picking up essentially sound from the left and right sides of the sound stage (primarily reflected sounds), they can be used to develop the stereo 
+  signals by combining them with the mid signal. In a figure-eight microphone, the sound picked by the front (in this case the left side) is 180 degrees out of phase with the rear
+   (the right side). So the left portion of the signal can be considered to be a positive signal while the right is a negative one. To create a left channel, you need to add the 
+   mid and side signals. To obtain the right channel, you need to subtract the side signal from the mid signal. This can be done in your mixing console or digital audio workstation
+    (DAW) by mixing the two signals for the left channel and mixing a polarity-reversed side signal with the mid signal to produce the right channel. Of course,
+     if you face the side microphone to the right, this procedure will be reversed.  <br>  </p>
+
+<p class="code" style= "text-align:left;"  > The M-S technique provides good stereo localization, a strong middle image, and excellent mono compatibility. However, 
+  possibly its greatest advantage is that the stereo field can be adjusted even after the performance is over. In fact, the polar patterns achieved by an omni
+   and figure-eight microphone at right angles is equivalent to two cardioid mics set at 90 degrees apart in an X-Y pattern. The difference is that with M/S 
+   you have the ability to adjust the width of the stereo field. By adjusting the ratio of mid signal to side signal, you can achieve anything from a fairly 
+   wide stereo image to a rather narrow one. Of course, you can pan the signals with other techniques, but you are only mixing together the left and right signal.
+    With M-S you are mixing more or less of the mono signal into the mix, providing greater control over the final mix. <br>  </p>
+
+
+
+
+    <img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaies1WGKhLIEFQPOJSa95PJD-UbaSHozs7I3NBisdcxmpbhVE-Q_URsCYwEy5TxKyIQKEc2tIykp0nT_QnG0dZ_SJllZDiYXImR32rwGDWJFiUsZWr8Kmr9XqcuEBCrYDhqMsMSNNxqS1soqrvJEgD3r55RSL07RQV6-qgJzfVwSN7Y6-k56vwQPf6XY/s3840/i9.PNG  "
+    style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+
+
+
+<p class="code" style= "text-align:left;"  > The Blumlein method consists of a coincident pair of bi-directional (figure-eight) microphones placed at an angle of 90 degrees from one another, with the center line bisecting that angle pointing at the music source. This configuration provides a high degree of stereo separation along with a large amount of room ambience. The Blumlein technique produces a good, natural-sounding stereo image, but the sound quality is greatly influenced by the room acoustics and the size of the sound source. Since it is coincident, it provides excellent mono compatibility. Both condenser and ribbon microphones have been used with this technique. This technique should not be used if room acoustics or audience noise will be a problem. <br>  </p>
+
+<h2 class="code" style= "text-align:left;"> Near-Coincident pairs <br> </h2>
+
+<p class="code" style= "text-align:left;"  > Since the ears on a human head are spaced several inches apart, engineers have deemed that using a recording technique with the mikes spaced a similar 
+  distance should produce a stereo image similar to that of human hearing. That was the original reason for the near-coincident microphone technique, although most current versions no longer 
+  try to emulate the size of the human head. The stereo image depends on both time of arrival and intensity differences. <br>  </p>
+
+
+
+  <img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWQHshodrPpi0-giZ_uAdF_M0v8fiKh5SQaBZBMga-szL_KTYr1aVRg_dblbf1eQem4f74PmHBbc0IMMFQ4HUlBXNLpz4-LMHz4gbS89RCR-w3xtVieN_F74HD-l09ZniULUcuc13eYL_JJR-wUscdtcuijVzGr1e-8k11zhCAniq3PpGaN5RroyHqG-Y/s3840/i8.PNG  "
+  style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+
+
+
+<h2 class="code" style= "text-align:left;"> ORTF <br> </h2>
+<p class="code" style= "text-align:left;"  > The ORTF technique, which was developed about 1960 by the Office de Radiodiffusion-Télévision Française, the French broadcasting organization, uses two cardioid microphones spaced 17 cm (6.7 inches) apart and angled at 110 degrees. This method provides a realistic stereo field with acceptable mono compatibility. Using cardioid microphones provides for less ambient noise and effects from room characteristics. <br>  </p>
+ 
+ 
+ 
+<h2 class="code" style= "text-align:left;"> Spaced pairs <br> </h2>
+<p class="code" style= "text-align:left;"  > This category uses two, sometimes three, microphones pointing forward and spaced several feet apart. Unlike the near-coincident category above, which normally specifies distances between mics to the nearest centimeter, this category usually gives a range of distances such as 3 to 10 feet. The guiding principle in spacing microphones is the 3-to-1 rule. This rule of thumb states that the distance between two mics should be three times the distance from the mics to the sound source. The purpose of this rule is to minimize phase problems. However, with many guidelines in stereo miking, this rule is often easier said than done in typical real world applications. Other factors also come into play when setting up the spacing between microphones. As a general rule, the larger the group being recorded, the wider the spacing should be. However, spacing the microphones too far apart can exaggerate the separation and cause insufficient coverage of the center of the sound stage, creating the “hole-in-the-middle” effect. <br>  </p>
+
+<p class="code" style= "text-align:left;"  > Unlike the near-coincident method, the spaced pair method does not try to emulate human hearing. Using spaced pairs produces a greater spread of the perceived sterero image. The stereo image of spaced pairs is produced by a combination of time differences, level differences, and spectal differences. Most listeners are not listening through headphones, but through a pair of stereo loudspeakers placed several feet apart. Reproducing music that has been recorded with microphones placed several feet apart through such speakers should be a good combination. The disadvantage is that off-center images tend to be unfocused and hard to localize. <br>  </p>
+<h2 class="code" style= "text-align:left;"> AB Pair <br> </h2>
+
+
+
+
+<img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCPk5RoY50nWyOvFbbAKS-7UYEZdyVSsgWlRA-KCbCja8d_GEIZ1v5auCBDBbwq7FmVpFQhIG-SjFj0lJeMV8YLzDesRaYFCUaCcRYHW9DE2d1QdkhCMt6k0SMVBwibyBnE5cPw_CXejpq3h_4HoPTKWCpnlko9sGhyphenhyphenYU7ZzUG-WLEpn90iHgr-5QHfhY/s3840/i7.PNG "
+style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+
+
+
+<p class="code" style= "text-align:left;"  > In AB mic placement two identical microphones are placed, at some distance apart, in front of the source. Omnidirectional microphones are frequently employed for this setup, 
+  although directional microphones can be used. This system captures both time of arrival and relative amplitude information, but if the microphones are spaced farther apart than our ears are, as is usually the case,
+   the reproduced stereo field can be unnatural sounding. This approach might sound acceptable when listened to on speakers that are also placed far apart. The stereo separation reproduced depends 
+   on the distance between the microphones. A “hole” can be created in the middle of the stereo field if the microphones are too far apart. A third microphone is sometimes used in the middle of
+    the spaced pair to prevent this effect, but undesirable cancellations may occur if this is not done carefully. Individual microphones (accent microphones) can also be placed near a soloist 
+    and combined with the spaced pair if necessary. When using spaced-pair recording techniques, it is helpful to consider the 3-to-1 rule to minimize undesirable phase cancellations:
+     the sound sources should be at least three times as far apart as they are from the microphones. <br>  </p>
+
+
+
+<p style= "text-align:left;" class="code">  Phase between mics  <a href=" https://ehomerecordingstudio.com/stereo-recording/          " target="_blank">  (Links to an external site.) </a> </p>
+
+
+
+
+
+
+
+
+<p style= "text-align:left;" class="code">  Recording with Multiple mics in different pick-up patterns  <a href=" https://sengpielaudio.com/Visualization-Blumlein-E.htm          " target="_blank">  Resultant diagrams (Links to an external site.)  </a> </p>
+
+
+
+
+<img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRdh5QxfqiQIhbVXqXddMkfA144IFL9vv4vh2psgBEBTmKH-mH8A3UqYXAmrahpNXs1xBJYTcOCqt-GCKNjxfe-fWdkIxIb0fHva5aWE5FNo4xgv7u4peeaUoPdiXsLtfJVIw2Mz8QrPQ5S7vkGsFA0eRektgCfjcqvYW3KeuxKpOODSSAnbGOKxfQs4Q/s3840/i6.PNG "
+style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+
+
+
+
+<img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfvE7xT7BqjqacnHxZk6pgkm42HW9KfGAx1eGFVyAD4RghlPYlZ6WhRizXHZsdIgFVAuuNtcX5GdzXwjSkBgIzhoOI3ci3QJLiQ3lLLvrLif5duC0y-WOYj8qJRkQLnDIPlcPRZcEl6BvyaYHrebLxIm6z3Hw6NRrNnh3ALWVH4LfGqsQxx3U1uGPJ69E/s3840/i5.PNG "
+style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+
+
+
+
+
+
+
+
+<h2 class="code" style= "text-align:left;"> Microphone Technique: Piano <br> </h2>
+
+<h2 class="code" style= "text-align:left;"> Common Mic Techniques for Piano <br> </h2>
+
+<p class="code" style= "text-align:left;"  > Everyone's got their idea about what works best. For students just starting, it's sometimes helpful to see how other people work, and then along the way find your own method. There is no "best" way to record an instrument - it will vary with every instrument, every performer, every style of music. <br>  </p>
+<p style= "text-align:left;" class="code">  Let's take a look at some different ideas about how some well-respected engineers choose to mic a piano for a great recording.  <a href=" https://www.sweetwater.com/insync/piano-miking-techniques-for-worship-services/          " target="_blank">  Resultant diagrams (Links to an external site.)  </a> </p>
+
+
+
+<p style= "text-align:left;" class="code">  watch this video <a href=" https://www.youtube.com/watch?v=xp5qN4LibZM          " target="_blank">   (Links to an external site.)  </a> </p>
+
+
+
+<h2 class="code" style= "text-align:left;"> Mic'ing Techniques for Acoustic Guitar <br> </h2>
+
+<h2 class="code" style= "text-align:left;"> 3 Ways to Mic an Acoustic Guitar <br> </h2>
+
+<p style= "text-align:left;" class="code">  This 40-minute video is fast-paced and gives you the chance to hear a pro talk about all the things he considers when recording an acoustic guitar. It also gives you a chance to hear 5 different mics doing the same job. <a href=" https://www.youtube.com/watch?v=0ko6ceHqLbA#action=share          " target="_blank">   TOO MUCH BASS. This seems like a logical place to put a mic, but in reality, you should avoid this placement. You will get a plentiful amount of bass and very little usable high end.  </a> </p>
+
+
+
+<img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnORuRQJ-9soSnDvHU667c-1EMDXbqWcwc4stTgxZEZjYtVt09iOEw-uJOcPIj3J0CXD00KwoLJYA3m3n0W5E3Y8WN4VhwnoAfF89fC45wupQGDK5_DmGiuh3yoB7X0r48qqYlvUDgiJvwl4S7VTaWJ1M_ZJHqxexSgnvlBjHRiFh7MmKHRnFZK7ZdbVc/s3840/i4.PNG "
+style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+
+
+
+
+
+<h2 class="code" style= "text-align:left;"> More than one mic <br> </h2>
+
+<p style= "text-align:left;" class="code">  If you are using more than one mic on the guitar, you can try any one of these these three good options for Mic'ing an Acoustic Guitar <a href=" https://www.uaudio.com/blog/stereo-miking-acoustic-guitar/         " target="_blank">   (Links to an external site.)  </a> </p>
+
+
+
+<div class="w3-row-padding w3-padding-16 w3-center" id="careers">
+
+<h2 class="code" style= "text-align:left;">  Careers in Audio <br> </h2>
+
+
+
+<h2 class="code" style= "text-align:left;"> Careers in Music Production & Engineering <br> </h2>
+
+
+
+<h2 class="code" style= "text-align:left;" > Producer  <br> </h2>
+<p class="code" style= "text-align:left;"  > The producer plays a variety of roles depending on whether they are working in music, film, theater, dance, video games, or other media. In the music industry, 
+  producers often work with recording artists and record labels to create songs and albums for release. The music producer supervises all aspects of the recording process—including
+   contracting session players and overseeing the recording budget—and may also help the artist select songs to be recorded. Preferably, a producer should be an excellent 
+   musician with a lot of performance experience. In addition to possessing a great depth of knowledge in music, a producer should hold extensive technical knowledge 
+   of recording equipment, engineering, and acoustics. A producer must also demonstrate creativity and excellent interpersonal skills. <br>  </p>
+
+
+<h2 class="code" style= "text-align:left;" > Recording Engineer/Mixer <br> </h2>
+
+<p class="code" style= "text-align:left;"  > The recording engineer operates the mixing console and other equipment during the process of recording music or sound.
+   Recording engineers generally run recording sessions, with oversight from the producer. They may also be responsible for setting up equipment in the studio prior to the session, 
+   and discussing what the end product should sound like with the producer and talent. It is the engineer’s subsequent responsibility to craft a recording that
+    meets all stakeholders’ stated desires. Many engineers are also called upon to be mixers, working with the output of recording sessions to piece
+     together a polished finished product. Recording engineers/mixers must possess well-trained ears, advanced technical
+      knowledge of recording and mixing tools, and an ingrained understanding of studio etiquette. <br>  </p>
+
+<h2 class="code" style= "text-align:left;"  > Assistant Engineer <br> </h2>
+
+<p class="code" style= "text-align:left;"  > The assistant engineer works in the recording studio and is responsible for assisting the recording engineer with setup,
+   recording tracks, and mixing. This person works as directed by the recording engineer. <br>  </p>
+
+<h2 class="code" style= "text-align:left;" > Production Assistant <br> </h2>
+
+<p class="code" style= "text-align:left;"  > As the producer's right-hand person, the production assistant handles details for the producer such as contracting 
+  talent (musicians/vocalists) for sessions, scheduling studio time, placing telephone calls, sending emails ensuring everyone is aware of when and where 
+  the session will be held, assisting on the session, and setting up the equipment in the studio for a session and/or returning it to its proper place after the session. <br>  </p>
+
+<h2 class="code" style= "text-align:left;"  > Studio Manager/Owner <br> </h2>
+
+<p class="code" style= "text-align:left;"  > The studio manager/owner is the person responsible for running the business of the recording studio and may be a sole 
+  or partial owner of the business. Studio managers are responsible for booking acts to record at the studio, scheduling engineers, marketing the studio, 
+  and budgeting and providing for all the needs of a professional recording studio. The studio manager/owner is also the in-house diplomat, 
+  acting as the liaison between engineers and clients, ensuring client satisfaction, and handling all financial transactions with clients. <br>  </p>
+
+<h2 class="code" style= "text-align:left;" > Sound Technician <br> </h2>
+
+
+<p class="code" style= "text-align:left;"  > Sound technicians are responsible for high-quality sound during live performance. They usually arrive at the concert sight before the performers
+   and are involved in unloading and setting up the equipment and instruments along with the road crew. Sound technicians supervise the placement of equipment and work with the talent during 
+   the sound check to achieve the best sound. They may even work a soundboard during the actual performance. <br>  </p>
+
+<h2 class="code" style= "text-align:left;" > Acoustic Consultant <br> </h2>
+
+
+<p class="code" style= "text-align:left;"  > Acoustic consultants provide complete audio, video, and acoustic design services for performance spaces such as concert halls, 
+  arenas, stadiums, studios, convention facilities, clubs, churches, and synagogues. Acoustical consultants can provide an acoustical analysis of a particular venue, 
+  identify acoustical problems, and make suggestions for equipment or interior design changes for fixing any problems. <br>  </p>
+
+<h2 class="code" style= "text-align:left;"  > Audio Engineer for Videos <br> </h2>
+
+<p class="code" style= "text-align:left;"  > This engineer's specialty is making certain that the audio tracks are synchronized and equalized with the video. <br>  </p>
+
+<h2 class="code" style= "text-align:left;" > Digital Remastering Engineer <br> </h2>
+
+
+<p class="code" style= "text-align:left;"  > This engineer's responsibility is to take older analog masters, which are on vinyl, 8-track, 
+  or audiocassette formats, and remaster them for release on CD or other digital mediums. <br>  </p>
+
+<h2 class="code" style= "text-align:left;" > Live Sound Engineer <br> </h2>
+
+<p class="code" style= "text-align:left;"  > This engineer's primary responsibility is to operate the soundboard during a live performance. 
+  The live sound engineer is also involved in sound check and the placement of equipment in preparation for a live performance. <br>  </p>
+
+<h2 class="code" style= "text-align:left;"  > Recording Equipment Manufacturer's Rep/Customer Service <br> </h2>
+
+
+<p class="code" style= "text-align:left;"  > A recording equipment manufacturer's rep will usually work at the company's headquarters in a customer service/tech support role. 
+  They will also represent the company at trade shows or conferences and potentially serve as a product demonstrator. Usually, someone with strong playing ability as a musician is selected for this role. <br>  </p>
+
+<h2 class="code" style= "text-align:left;" > Mastering Engineer (Post-Production Engineer) <br> </h2>
+
+
+<p class="code" style= "text-align:left;"  > This engineer is responsible for taking the final mixes of recordings that have been sent by a studio,
+   band, or artist for finishing touches such as EQ (equalization), overall effects, and possibly compression.  <br>  </p>
+
+<h2 class="code" style= "text-align:left;" > Interactive and Mixed Media Specialist <br> </h2>
+
+<p class="code" style= "text-align:left;"  > Interactive and mixed media specialists work to create features for websites, software, and a wide variety of digital multimedia applications. 
+  These features may contain sound, music, text, video, images, and/or animation. Interactive and mixed media specialists may be charged with developing and implementing “front-end” 
+  content or “back-end” functions, or both. As such, this position requires a broad spectrum of skills, which may include graphic design, web design, web development/computer programming, 
+  sound design, editing, and more. Typically, interactive and mixed media specialists are enlisted to help clients meet sales or fundraising goals, so in addition to technical skills, 
+  interactive and mixed media specialists should possess an understanding of marketing, communications, and digital user behavior. <br>  </p>
+
+<h2 class="code" style= "text-align:left;"> Re-Recording Mixer (Film and Video) <br> </h2>
+
+<p class="code" style= "text-align:left;"  > If a film or business wants to use a particular song for a commercial or movie, they will often re-record the song or
+   composition again in order to avoid having to negotiate and pay a hefty master-licensing fee to a record label for use of the actual (master) recording. 
+   By rerecording the song, they will only have to pay the mechanical licensing fee, which is a rate that is established by the U.S. government and is much 
+   cheaper than a master-licensing fee. Therefore, a re-recording mixer for film and video rerecords a song or composition that has already been commercially released. <br>  </p>
+
+<h2 class="code" style= "text-align:left;"> Record Company Staff <br> </h2>
+
+
+<p class="code" style= "text-align:left;"  > Many times successful producers and engineers who have a track record of working with and 
+  identifying successful artists and bands will be tapped for an executive level position at a record label, to oversee artist development, 
+  production, or A&R. These producers and engineers usually have had an exclusive agreement and history or working with the record label for 
+  several years, and the success of the producer or engineer has resulted in the success of the label. <br>  </p>
+
+<h2 class="code" style= "text-align:left;"> Recording Studio Setup Worker <br> </h2>
+
+<p class="code" style= "text-align:left;"  > This person is generally charged with the responsibilities of setting up for a recording session by arriving
+   early before the session musicians, artist, or band and setting up any necessary musical equipment, such as amplifiers, drum set, microphones, 
+   running microphone cords, music stands, etc. This person is also generally the last person to leave, since they are left with the
+    responsibility of ensuring that all equipment is returned to its proper place. <br>  </p>
+
+<h2 class="code" style= "text-align:left;"> Studio Designer <br> </h2>
+
+<p class="code" style= "text-align:left;"  > Studio designers provide complete audio, video, and acoustic design services for recording facilities.
+   Studio designers can serve as consultants for designing or renovating studios for select and distinct purposes. <br>  </p>
+
+<h2 class="code" style= "text-align:left;"> Studio Technician/Maintenance <br> </h2>
+
+<p class="code" style= "text-align:left;"  > The studio technician is extremely knowledgeable in the field of electrical engineering, circuitry, and audio electronics. 
+  This person may work within the audio manufacturer's headquarters and/or conduct fieldwork, such as visiting a client's studio for customer service–related issues or product repair. <br>  </p>
+
+<h2 class="code" style= "text-align:left;" > Music Editor <br> </h2>
+
+<p class="code" style= "text-align:left;"  > A music editor is responsible for mixing and synchronizing music with a visual counterpart, such as a film or video game. 
+  The music editor often provides a temporary track that is used as a stand-in for the final score until that score is ready. The music editor must be versatile and possess a 
+  great musical sensitivity, a keen ear for balance, and an awareness of how music can make or break a dramatic scene or sequence. In addition, the music editor
+   must be familiar with the technology used to mix and synchronize music in conjunction with visual media. <br>  </p>
+
+<h2 class="code" style= "text-align:left;"> Programmer <br> </h2>
+
+<p class="code" style= "text-align:left;"  > The programmer uses software to produce MIDI keyboard/synthesizer tracks for inclusion in a score for visual media such as film,
+   TV, video games, and commercials, or for art installations, live performances, and more. A programmer may also sequence a composition so as to enable the composer,
+    music editor, or others an opportunity to hear it—and identify any problematic areas—without having to hire a full orchestra before it reaches its final performance 
+    or recording stage. A programmer must possess strong skills with music sequencing software and notation software. <br>  </p>
+
+<h2 class="code" style= "text-align:left;"> Sound Designer <br> </h2>
+
+<p class="code" style= "text-align:left;"  > The sound designer is employed to develop and/or utilize a sound library to implement sounds and effects for a variety of potential clients,
+   including artists/bands; films, television shows, video games, and other visual media; live theater; production and multimedia companies; and manufacturers. The sound designer
+    typically uses an array of sophisticated electronic equipment to find sonic solutions in their work. A sound designer must possess a creative mindset, the ability to record and 
+    edit audio, and the discipline to manage a multitude of audio files across various projects. <br>  </p>
+
+<h2 class="code"style= "text-align:left;" > DJ/Remixer <br> </h2>
+
+<p class="code" style= "text-align:left;"  > The DJ/remixer may be charged with editing a song or completely recreating it to sound different from the original version. 
+  The DJ/remixer may also mix recorded music live for an audience. Skills required involve knowledge of audio editing and music production software as well as performance dynamics and knowledge of current musical trends. <br>  </p>
+
+<h2 class="code" style= "text-align:left;"> Audio Developer <br> </h2>
+
+<p class="code" style= "text-align:left;"  > Audio developers create, collect, and/or compile sound effects and music to be used in apps, video games, and other
+   web-based features. The lead audio developer may record sounds or music or draw from a preexisting sonic library, or both, and may oversee voice-over 
+   recording sessions. The audio developer’s primary role is to ensure that the finished product contains professional-quality audio. An audio developer
+    should possess electronic production and sound design skills, a working knowledge of professional audio recording and editing software,
+     a creative mindset, and typically must harness the ability to deliver results under tight deadlines. <br>  </p>
+
+<h2 class="code" style= "text-align:left;"> More Careers in Sound <br> </h2>
+
+<h2 class="code" style= "text-align:left;" > Live Sound Reinforcement <br> </h2>
+
+<p class="code" style= "text-align:left;"  > Live Sound reinforcement focuses on amplifying live performances which could be anything from a concert to a conference panel to a TED talk. <br>  </p>
+
+
+
+
+<li   li class="code" style= "text-align:left;" ul class="a" li>  The FOH engineer (Front of House) is responsible for creating the mix of the sound elements on stage that is amplified and heard by the audience (the house). <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> The monitor engineer creates the mix of the sound elements for the performers on stage. They typically operate an entirely different system than the FOH engineer and deliver different mixes that are tailored to each performer's needs. The mixes are delivered to monitor wedges on stage or the in-ear monitors of the performers or both.<br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li>The system engineer is responsible for installing and often designing the sound system for a tour, event or venue. It also includes optimizing the system for the venue/environment. The system tech supports the system engineer and is involved in the system setup including cabling and rigging.<br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> The FOH tech supports the FOH engineer and System Engineer and  assists with EQ/time alignment tasks for system optimization. They also handle all of the show elements besides the main performance, like announcements, pre/post-show music or other media feeds. Sometimes they are also responsible for recording the performance.<br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> The Monitor tech supports the Monitor engineer and System Engineer and assists with the setup of the monitor system and console. They also handle the In-Ear Monitoring Systems (IEMs) and the RF (Radio Frequency) coordination for the wireless systems on stage.<br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> Stage Techs are responsible for setting up the microphones, microphone stands and cables on stage. They also are responsible for patching.<br> </li>
+ 
+<h2 class="code" style= "text-align:left;" > Audio Production <br> </h2>
+
+<p class="code" style= "text-align:left;"  > Audio production includes producing, recording, editing, mixing and mastering of music, podcasts and audiobooks. Audio production roles are usually in recording or media studios. <br>  </p>
+<li   li class="code" style= "text-align:left;" ul class="a" li> A recording engineer is responsible for creating the best recording of the performers and sound sources of a project. This could be an artist or musicians in a band or a host and guests of a podcast or an author reading an audiobook. The recording engineer chooses the best microphones and recording equipment to capture each of the sources, sets everything up in the studio, connects everything via the patch bay and makes sure the recording process is seamless for the talent. The recording engineer also edits the material, delivers files to client, mixing engineer, etc. and maintains multiple backups of all of the material.<br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> A music producer oversees the recording process from working with the artist to booking recording studios and managing the budget and personnel. A music producer works with the artist to translate the aesthetic vision into a recorded product that is competitive in the market. There are multiple types of producers. Some focus on creating the beats and backing tracks, some are more technically trained as recording engineers and some focus more on songwriting and arranging.<br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> A mix engineer takes the completed multi-track recorded tracks and blends them into a stereo master format that is distributed to the world (after mastering). The mix engineer balances the individual sound elements and uses EQ, dynamic and time-based signal processing to create separation and clarity so that all the elements of the song are heard. While a recording engineer focuses on the best recording of each element, the mix engineer focuses on the best representation of the song as a whole. <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> A vocal producer specializes in helping a singer record their best performance. While a music producer oversees the entire recording process, the vocal producer focuses on the vocal only, from choosing the recording chain to editing to coaching the vocalist to get the best take.<br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> While the mix engineer focuses on the song, the mastering engineer focuses on the album or the collection of the songs and makes sure that they are all in the same space in terms of loudness, frequency balance and dynamics. They work with the artist to create the best song order and transitions and are also the very important last step in quality control of the project. They work in a mastering studio which is a very different setup than a recording studio as it is much more focused on the monitoring environment and quality of the stereo signal chain as opposed to a multi-track environment that needs to deal with a much higher number of sources. <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> The term "producer" has evolved over time, especially with more electronic-based music. Producer/beat makers use compositional tools like Ableton Live  (Links to an external site.)and drum machines to create beats and music beds for songs. <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> Like a music producer, a podcast producer crafts the overarching story and aesthetic vision of the podcast and oversees the recording process from working with the podcast creator/host and audio engineer to booking recording studios and managing the budget and personnel. <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> An audiobook producer is responsible for turning a book into something you can listen to. Critical tasks include casting the perfect readers (the author, voice actors), scheduling recording studio sessions and managing the talent and recording engineer. <br> </li>
+ 
+<h2 class="code" style= "text-align:left;" > Sound for Film/Video <br> </h2>
+
+<p class="code" style= "text-align:left;"  > The roles in sound for film/video range from recording dialog on a TV/Film/video set to creating sound effects, editing music and mixing all the elements together. <br>  </p>
+<li   li class="code" style= "text-align:left;" ul class="a" li> A production sound mixer is responsible for capturing the actor's dialog and any sound effects on a TV, film or video production. They determine what microphones are used for every scene, operate the sound recorder and work with the director to deliver the best audio quality on set. <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> The boom operator assists the production sound mixer on the set of TV, film and video productions and is responsible for positioning a boom pole and microphone to best capture the actor's voices and keep the mic out of the shot. They also set up the clip-on lavalier and wireless microphones.<br> </li>
+
+
+<li   li class="code" style= "text-align:left;" ul class="a" li> A sound designer/SFX editor finds, creates and edits sound effects, atmospheres, and textures and works with the director to create the sonic world for a production's story.<br> </li>
+
+
+<li   li class="code" style= "text-align:left;" ul class="a" li> The dialog editor organizes, sorts and edits all of the dialog and ADR (actor's lines that are re-recorded in a studio) tracks into the finished dialog for the film/video. <br> </li>
+
+
+<li   li class="code" style= "text-align:left;" ul class="a" li> A foley artist 'recreates' sound effects for film and television (and radio) productions on a Foley Stage. For example, they use different types of shoes to re-create the footsteps of different characters and lots of props - from fruit to keys to plates, glasses, chairs to replace an original sound or augment existing sounds to create a more dynamic track.<br> </li>
+
+
+<li   li class="code" style= "text-align:left;" ul class="a" li> The music editor is responsible for compiling, editing, and syncing music during the production of a soundtrack for a TV/Film or video project. <br> </li>
+
+
+<li   li class="code" style= "text-align:left;" ul class="a" li>The supervising sound editor oversees the entire post-production sound process and crew, including the sound designer/SFX editors, music editor, foley artist, and dialog/ADR editor. They are responsible for the completion and quality of the soundtrack.<br> </li>
+
+
+<li   li class="code" style= "text-align:left;" ul class="a" li> Re-Recording Mixers blend all of the sound elements (dialogue, ADR or automated dialogue replacement, foley, sound effects, atmospheres, and music), to create the final soundtrack for a film or television production.<br> </li>
+ 
+<h2 class="code" style= "text-align:left;"> Game Audio <br> </h2>
+
+<p class="code" style= "text-align:left;"  > The roles in game audio range from sound design and creating the sonic world of a game to working with composers to create the background music to writing code to trigger the sounds in the game. <br>  </p>
+<li   li class="code" style= "text-align:left;" ul class="a" li> The Audio Director in game sound is similar to the role of Supervising Sound Editor in Film/Video, they oversee the process and staff that create all of the sound and music in a video game. They oversee the creation of the sonic world of the game from hiring voice actors to working with the composer and sound designers. <br> </li>
+
+
+<li   li class="code" style= "text-align:left;" ul class="a" li> Much like sound designers/editors for film/video, this role in game audio creates the sonic aesthetic of the game's world. However, the game sound designer has to create an auditory world that constantly evolves in response to the player.<br> </li>
+
+
+<li   li class="code" style= "text-align:left;" ul class="a" li> Audio programmers use and develop tools to integrate sound into a video game. They write code to manipulate and trigger the sound elements (sound effects, music) in the game. This role is an interesting blend of audio production and computer science and uses languages like C/C++ and middleware like FMOD, Wwise, Unity, Unreal. <br> </li>
+ 
+<h2 class="code" style= "text-align:left;"> Broadcast Audio <br> </h2>
+
+<p class="code" style= "text-align:left;"  > There are a wide variety of broadcast audio careers in television, sports, live events and radio studios. Broadcast audio engineers work on everything from the Super Bowl to Saturday Night Live to the BBC and NPR.  <br>  </p>
+<li   li class="code" style= "text-align:left;" ul class="a" li> An A1 is responsible for the final mix of the sound elements of a broadcast show or event that goes on the air. They oversee a crew that wires/patches everything either in the remote truck or the TV studio. <br> </li>
+
+
+<li   li class="code" style= "text-align:left;" ul class="a" li> While the A1 focuses on the signal flow and connectivity in the remote truck or the TV studio, the A2 wires everything else - the broadcast booth, the field, the court or the stage. <br> </li>
+
+
+<li   li class="code" style= "text-align:left;" ul class="a" li> The RF tech is responsible for an entire RF system for a broadcast show/event. This includes coordinating the operation of a large number of wireless mics, wireless in-ear monitors (IEMs), wireless musical instruments, etc. This involves understanding the frequency spectrum of the studio or event venue, scanning and finding problem areas and setting up the transmitters and receivers for all the wireless tech. <br> </li>
+
+
+<li   li class="code" style= "text-align:left;" ul class="a" li> A radio broadcast engineer can cover many roles from mixing all the audio for broadcast live performances, to board operator, to editing podcasts and maintaining the audio systems and studios used for radio broadcasts.<br> </li>
+
+
+<li   li class="code" style= "text-align:left;" ul class="a" li> System Engineers design, wire and maintain the audio systems in TV studios, radio stations and remote trucks this also includes satellite uplinks, computer and fiber optic networks.<br> </li>
+
+
+<li   li class="code" style= "text-align:left;" ul class="a" li> A comms tech is responsible for setting up, trouble-shooting and maintaining the intercom system between audio staff on a show or event. <br> </li>
+ 
+<h2 class="code" style= "text-align:left;" > Audio/Visual (A/V) <br> </h2>
+
+<p class="code" style= "text-align:left;"  > AV roles work with audio visual systems to create the best experiences at conferences, corporate events, trade shows, etc.  <br>  </p>
+<li   li class="code" style= "text-align:left;" ul class="a" li> An AV systems engineer designs, installs and troubleshoots audio visual solutions that create the best experiences at conferences, corporate events, trade shows, etc. This role often requires CTS  (Certified Technology Specialist) Certification.<br> </li>
+
+
+<li   li class="code" style= "text-align:left;" ul class="a" li> The Audiovisual Specialist sets up and supports the audio visual systems for live events as well as virtual meetings and video teleconferencing. Involves setting up cameras, audio systems, projection and displays. This role often requires CTS  (Certified Technology Specialist) Certification. <br> </li>
+
+
+<li   li class="code" style= "text-align:left;" ul class="a" li> Live Event Streaming involves broadcasting video and audio live using the internet and computer networks. <br> </li>
+ 
+<h2 class="code" style= "text-align:left;" > Acoustics <br> </h2>
+
+<p class="code" style= "text-align:left;"  > Acoustics is the science of sound and how it is applied to spaces like recording studios and concert halls or to the designs of microphones and speakers used in both studios and live sound as well as mobile phones, headphones, automobiles, hearing aids and consumer products. It can also include psychoacoustics and audiology.
+<li   li class="code" style= "text-align:left;" ul class="a" li> Acoustic Engineers that work in the architectural field use their understanding of sound, noise and vibration and the propagation in different materials to design environments that control sound (concert halls) and/or isolate them from sound and vibration (recording studios or airports.)
+Acoustic Engineers design and test transducers (microphones and speakers) for various applications used in live sound, recording studios, automobiles, phones and consumer products.<br> </li>
+
+
+<li   li class="code" style= "text-align:left;" ul class="a" li> Noise and Vibration specialists study the fundamentals of noise and vibration and how to mitigate the effects of noise and vibration in environments. <br> </li>
+
+
+<li   li class="code" style= "text-align:left;" ul class="a" li> Audiologists study and evaluate hearing loss and other disorders (balance, tinnitus).<br> </li>
+
+
+ 
+<h2 class="code" style= "text-align:left;"> Audio Hardware/Software Development <br> </h2>
+
+<p class="code" style= "text-align:left;"  > Hardware and software development engineers create the tools we use in audio from speakers to the components in mobile devices to the digital audio workstations and plug-ins that are used in audio production.  <br>  </p>
+<li   li class="code" style= "text-align:left;" ul class="a" li> Hardware engineers design and create amplifiers, microphones, audio interfaces, speakers, outboard signal processors and components for mobile devices, automobiles  and consumer electronics.<br> </li>
+
+
+<li   li class="code" style= "text-align:left;" ul class="a" li> Software Engineers and DSP (Digital Signal Processing) Engineers create the audio software, virtual instruments and plug-ins that are use in audio production and film/video post production. <br> </li>
+
+
+<li   li class="code" style= "text-align:left;" ul class="a" li> A QA Engineer tests and identifies bugs and issues with the software, helps create testing processes and documents test results and findings.<br> </li>
+
+
+ <h2 class="code" style= "text-align:left;"> Recording Industry Trends <br> </h2>
+
+
+
+
+
+
+<img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAKlEkbrOi-IDoQPDyd0N9QOX0r2aD9VwGTA-PbDEfVGckp7EbM6UYnsbLfjgL_WaMII6ucEZ4vMi14WRQ1aPP9_HQgNAkxrpgOPWJO4MgMAHYOtAHT-czfU4yxAoYTmVnUhhkX_p6ovhyphenhyphenKCl5AuDv1bfKDorxG_d1e5RZfdI3bF-pN6LGAVR3EIfhoDs/s3840/i3.PNG "
+style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+
+
+
+<p style= "text-align:left;" class="code">  If you are using more than one mic on the guitar, you can try any one of these these three good options for Mic'ing an Acoustic Guitar <a href=" https://www.uaudio.com/blog/stereo        " target="_blank">   (Links to an external site.)  </a> </p>
+
+
+
+<p style= "text-align:left;" class="code">  We've seen a lot of changes in the recording industry just since the late 1970s.  <a href=" https://www.visualcapitalist.com/music-industry-sales/        " target="_blank">   Here's a link to a good article that discusses the changing media (Links to an external site.),  </a> </p>
+
+
+
+
+
+<div class="w3-row-padding w3-padding-16 w3-center" id="loudness">
+
+
+<h2 class="code" >  Loudness and Metering <br> </h2>
+
+
+
+
+<img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWVicyHlZACIeMn8MXWHSXOFjYHRytuNwupnzFjYnQpV7now7Mopa7RkhBQhneCB0huH2xVRduLoluivJ6S8uVpZpQOsuCApNUCsiloBvsWz5IeiRcSXhg1fs88vBivFoTV1U1XEL6X1QqyO9_HqJ7WAqFYWbEO-zdx3DbMzL0ODuWrqtKsv0S_Gx0qvY/s3840/i2.PNG  "
+style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+
+<p class="code" style= "text-align:left;"  > Mind the meters while you're recording, mixing, mastering and broadcasting. Every step of the process requires attention to your levels. <br>  </p>
+
+
+<h2 class="code" style= "text-align:left;" > Loudness Levels <br> </h2>
+
+<p class="code" style= "text-align:left;"  > Audio signal or sound levels are measured using a decibel (dB) system. The dB system is used to compare two levels or a change in signal voltage or power. One dB is the level change that is just noticeable by most people. A 6 dB change is considered to be about twice the volume. <br>  </p>
+<p class="code" style= "text-align:left;"  > The dB scale operates differently depending on whether you're working with Analog or Digital signals. <br>  </p>
+
+<h2 class="code" style= "text-align:left;"> Analog Loudness <br> </h2>
+
+<p class="code" style= "text-align:left;"  > dBm: decibels or dB referenced to 1 milliwatt (.001 watt) <br>  </p>
+<p class="code" style= "text-align:left;"  > dBu or dBv: decibels or dB referenced to 0.775 volt (dBu is more commonly used) <br>  </p>
+<p class="code" style= "text-align:left;"  > dBV: decibels or dB referenced to 1 volt <br>  </p>
+<p class="code" style= "text-align:left;"  > VU - Volume unit - device displaying a representation of the signal level in audio equipment. 0 VU is often referred to as "0 dB". The VU meter is a voltmeter with a response time designed to reflect the loudness of live audio as the ear would interpret the loudness. Relating VU measurement units to the other dB units of measurement for audio can only be done with a sine wave test tone. In a professional audio balanced system, 0 VU corresponds to +4 dBu. <br>  </p>
+<p class="code" style= "text-align:left;"  > RMS Levels - Root Mean Square Levels - approximates loudness. <br>  </p>
+
+<h2 class="code" style= "text-align:left;"> Digital Loudness <br> </h2>
+
+<p class="code" style= "text-align:left;"  > The dB system in digital audio starts at the top and defines the loudest sound level that is to be digitized. This top or full scale view of the audio levels results in a full scale or "FS" system of dB measurement. A 0 dBFS measurement unit is to be the highest audio level. Assuming this is to be at the highest audio level before clipping occurs, this corresponds to an analog level of 24 dBu. Therefore, 4 dBu (dBu =dBv) is the same as - 20 dBFS or 0 VU.
+dBFS - Decibels relative to full scale. The level of 0 dBFS is assigned to the maximum possible digital level. <br>  </p>
+<p class="code" style= "text-align:left;"  > LUFS/LKFS - Loudness Units referenced to Full Scale (based 1LU=1dB). 2011 standard. <br>  </p>
+<li   li class="code" style= "text-align:left;" ul class="a" li> Suggestions:<br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> -23db for TV/Radio <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> -16db to -10 for music <br> </li>
+
+
+
+
+<img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7jeV3qH-deN_cbPmszbZ3D8F0r3-30KWjX-CC1Dtm4HSOQjvEJCez_AxMd7zWchm-itKrPOjNkLtUvg4JncFIDNJwbJSeRroHm-3WTsbKNy_lfGXo1Ad08qrqFQmUcAO6kcU4a1rdZCvf97654KeYHwxUS4uPZM1qstA57nePSBRnwUtNolXwkGLTyik/s3840/i1.PNG "
+style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt=" # "> 
+
+
+
+
+<li   li class="code" style= "text-align:left;" ul class="a" li> On Master fader - insert the Loudness meter Plugin > Metering > Loudness <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> M = Momentary loudness (instant) <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> S = Short term loudness (little longer) <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> I = Integrated loudness (long term) <br> </li>
+<li   li class="code" style= "text-align:left;" ul class="a" li> LU Range - time varying loudness (over about 60 seconds)....less dynamics, lower numbers, more dynamic range, larger numbers. <br> </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="w3-center" >
+ 
+
+
+
+
+
+
+
+
+
+
+
+<!-- test-->
+
+     <div class=" w3-padding-32 ">  
+
+      <!--  ስለ  " id=" ሲጫኑት ወዳይ እንዲሄድ ለማድረግ የሚያስችል ኮድ ነው -->
+
+
+
+
+<!-- ID CONTACT -->
+
+  <div class="w3-container " id="contact" style="margin-top:5px">
+
+
+
+    <h1 class="w3-xxxlarge w3-text-red w3-center"> <b> Contact</b></h1>
+
+      <!--  ስለ  " id=" ሲጫኑት ወዳይ እንዲሄድ ለማድረግ የሚያስችል ኮድ ነው -->
+
+
+      
+
+    <!-- <hr style="width:50px;border:5px solid red" class="w3-round "> -->
+  
+    <!--  <div class="w3-center"> -->
+
+<!-- <h3 style="text-align: center" class="code"> Have Questions? </h3> -->
+  
+
+
+    <p style="text-align: center" class="code" > Have question? Lets get in touch. Send us a message to Palo Alto, CA: <br> </p> 
+<div style="margin-top:10px">
+  
+   <p style="text-align:center;" class="code"  > Feel free to message us! we are here to discuss your ideas and bring them to life.
+
+    Feel free to adjust the description based on your specific style and approach to design.  <br> </p> 
+
+
+    <div class="w3-center w3-padding-8  "> 
+
+
+
+    <p> <i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"> </i> Phone: <a href=" # " target="_blank" class="w3-hover-text-green" > +1(201) 374-0818</a></p> 
+
+    <p> <i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: <a href=" # " target="_blank" class="w3-hover-text-green" > BSL@bitews.com</a></p>
+    
+   
+  
+
+  <p><a href=" https://forms.gle/MKPz9uc1tg59f51s5" class="w3-button w3-black"><i class="fa fa-envelope"> </i> SEND MESSAGE</a></p> 
+
+
+ 
+
+
+  <div class=" w3-padding-32 ">  
+<!-- **** -->
+
+
+<div class="w3-black"> 
+
+ 
+
+  <footer class="w3-padding-32 w3-theme-d1 w3-large   ">
+  
+    <a href="#audio" class="w3-button w3-blue"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+
+
+  <h4>Follow Us</h4>
+
+  
+  
+  <a class="w3-button w3-large w3-teal" href=" https://www.facebook.com/profile.php?id=100086062394930" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-teal" href=" https://twitter.com/Bitewstudio" title="Twitter"><i class="fa fa-twitter"></i></a>
+  
+  <a class="w3-button w3-large w3-teal" href=" https://www.instagram.com/bitewstudio/" title="instagram"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-teal w3-hide-small" href=" https://www.linkedin.com/company/bitew-studio-lab/?viewAsMember=true" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+
+
+
+    
+  <a class="w3-button w3-large w3-teal w3-hide-small" href="#" title="Pinterest"><i class="fa fa-pinterest"></i></a>
+
+
+<!-- *** -->
+
+<p class="code" >IMPORTANT: <br> </p>
+
+<p class="code"> We don't provide a copyright or trademark logo and we don't take responsibility for copyright or trademark-related issues.  <br> </p>
+
+  <p class="code">  We cannot accept work involving adult content, gambling, alcohol and pornography.  <br> </p>
+
+
+<p> Remember to check out our  <a href=" # " target="_blank" class="w3-hover-text-green"> Bitews.com </a> </p>
+
+
+
+
+<a href=" https://www.bitews.com/policy/terms-of-service" target="_blank" class="w3-hover-text-green"> Terms & Conditions |</a>
+
+
+<a href=" https://www.bitews.com/policy/privacy-policy" target="_blank" class="w3-hover-text-green">Privacy Policy  |</a>
+
+<a href=" https://www.bitews.com/policy/cookie-policy" target="_blank" class="w3-hover-text-green">Cookie Policy  |</a>
+
+<a href=" https://www.bitews.com/policy/acceptable-use-policy" target="_blank" class="w3-hover-text-green "> Acceptable Use Policy  |</a>
+
+
+
+<p style="text-align:center;"> © Copyright 2024,  Bitew Studio Lab (BSL) and logo.  All right reserved. </b> </p>
+
+<!-- W3.CSS Container -->
+
+
+
+<div class=" w3-container w3-padding-8 w3-center" style="margin-top:25px;padding-left:58px"><p class="w3-center">Powered by 
+  <a href=" https://www.bitews.com/home" title="BSL" target="_blank" class="w3-hover-black w3-hover-text-green">BITEW STUDIO LAB </a> </p> </div>
+
+
+
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
+
+
+
+

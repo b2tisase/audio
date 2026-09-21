@@ -294,11 +294,20 @@
       border-color: #93c5fd;
     }
 
+    /* 1. Modal Overlay Fixes: Forces modal to show in front of sticky header */
+    .w3-modal {
+      z-index: 9999 !important;
+      padding-top: 20px !important;
+      overflow-y: auto !important;
+      background-color: rgba(15, 23, 42, 0.75) !important;
+      backdrop-filter: blur(4px);
+    }
+
     /* Lightbox Modal */
     #imageModal {
       display: none;
       position: fixed;
-      z-index: 2000;
+      z-index: 10000;
       padding-top: 40px;
       left: 0;
       top: 0;
@@ -346,6 +355,66 @@
       justify-content: center;
       gap: 16px;
       margin: 20px 0;
+    }
+
+    /* 2. Mobile Screens: Fixes Header Height & Modal Truncation */
+    @media (max-width: 600px) {
+      .top-nav {
+        padding: 4px 0 !important;
+      }
+      .top-nav .nav-container {
+        padding: 4px 10px !important;
+        flex-direction: column;
+        align-items: stretch;
+      }
+      .top-nav .nav-links,
+      .top-nav .w3-bar {
+        display: flex !important;
+        overflow-x: auto !important;
+        white-space: nowrap !important;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        padding-bottom: 2px;
+      }
+      .top-nav .nav-links::-webkit-scrollbar,
+      .top-nav .w3-bar::-webkit-scrollbar {
+        display: none;
+      }
+      .top-nav .nav-links a,
+      .top-nav a.w3-bar-item {
+        font-size: 0.78rem !important;
+        padding: 6px 10px !important;
+      }
+
+      /* Modal card sizing on phones */
+      .w3-modal-content {
+        margin: 40px auto 20px !important;
+        width: 92% !important;
+        max-width: 95% !important;
+        border-radius: 10px;
+        overflow: hidden;
+      }
+      .w3-modal-content header {
+        padding: 12px 16px !important;
+      }
+      .w3-modal-content h4 {
+        font-size: 1.1rem !important;
+        margin: 0 !important;
+      }
+      .w3-modal-content h5 {
+        font-size: 0.88rem !important;
+        margin: 4px 0 0 !important;
+      }
+      .w3-modal-content .w3-padding {
+        padding: 16px !important;
+      }
+
+      .main-wrapper {
+        padding: 20px 12px 60px;
+      }
+      .edu-section {
+        padding: 24px 16px;
+      }
     }
   </style>
 </head>
